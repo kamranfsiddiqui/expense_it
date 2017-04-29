@@ -1,0 +1,26 @@
+<h2 class="text-center">Users</strong></h2>
+<p></p>
+
+<p></p>
+<% @users.each do |c| %>
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+      <div class="well well-lg">
+
+        <div class="User">
+          <b><%= c.email %></b>
+        </div>
+
+        <p></p>
+        <% if current_user.id == c.id %>
+          <div class="case-actions">
+            <%= link_to "See Expenses", user_expenses_path(c), class: "btn btn-xs btn-primary"%>
+          </div>
+        <% end %>
+
+      </div>
+    </div>
+  </div>
+<% end %>
+
+

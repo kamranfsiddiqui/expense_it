@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
   <title>ExpenseIt</title>
+<head>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <table cellpadding=10 cellspacing="10">
+    <tr>
+      <td><h1 class="text-left"id="home"> <em><%=link_to "ExpenseIt", root_path%> </em></h1>
+      <% if user_signed_in? %>
+        <td><%= link_to('<button>Logout</button>'.html_safe, destroy_user_session_path, :method => :delete)%></th>
+        <td><%= link_to('<button>My Expenses</button>'.html_safe , user_path(current_user))%></th>
+        <% if current_user.admin? %>
+          <td><%= link_to('<button>Users</button>'.html_safe , users_path(current_user))%></td>
+        <%end%>
+      <% else %>
+        <td><%= link_to('<button>Login</button>'.html_safe, new_user_session_path)%></th>
+        <td><%= link_to('<button>Sign-Up</button>'.html_safe, new_user_registration_path)%></th>  
+      <% end %>
+    </tr>
+  </table>
+<%= render 'layouts/messages'%>
+<% flash[:success] = flash[:warning] =flash[:error] = nil%>
 
 <%= yield %>
 
