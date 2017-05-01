@@ -11,6 +11,12 @@ class ApplicationController < ActionController::Base
       user_expenses_path(current_user)
   end
 
+	#def set_api_time_zone
+	#  utc_offset = current_user_session && current_user_session.user ? current_user_session.user.time_zone_offset.to_i.minutes : 0
+	#  user_timezone = ActiveSupport::TimeZone[utc_offset]
+	#  Time.zone = user_timezone if user_timezone
+	#end
+
   def after_sign_out_path_for(user)
     root_path
   end

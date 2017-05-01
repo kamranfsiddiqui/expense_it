@@ -1,0 +1,42 @@
+<div class='well'>
+	<p> Generate reports on your weekly spending by filling out the form below with a start and end date for the report or check the box to use all expenses. </p>
+</div>
+<div class='row'>
+  <div class='col-xs-12 form-horizontal'>
+    <%= form_tag report_user_expenses_path(@user), method: :get do  %>
+    <div class="form-group">
+      <div class="control-label col-sm-2">
+        <%= label_tag "Start date"%>
+      </div>
+      <div class="col-sm-8">
+        <%= select_datetime(Date.today.to_time, prefix: :start_date, ampm: true, order: [:month, :day, :year]) %>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="control-label col-sm-2">
+        <%= label_tag "End date"%>
+      </div>
+      <div class="col-sm-8">
+        <%= select_datetime(Time.now,prefix: :end_date, ampm: true, order: [:month, :day, :year]) %>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <%= check_box_tag(:all_expenses) %>
+        <%= label_tag :all_expenses, "Use all expenses to generate report"%>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+         <%= link_to "Cancel", user_expenses_path(@user), class: "btn btn-danger "%>
+         <%= submit_tag "Submit" , class: "form_submit btn btn-primary"%>
+      </div>
+    </div>
+  <% end %>
+  </div>
+</div>
+
+

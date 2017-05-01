@@ -18,4 +18,12 @@ class User < ActiveRecord::Base
     self.role ||= :regular 
   end
 
+  def start_date
+    Time.now
+  end
+
+  def end_date
+    Time.now
+  end
+
 end

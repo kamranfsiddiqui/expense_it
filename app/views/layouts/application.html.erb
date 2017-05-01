@@ -9,16 +9,17 @@
 <body>
   <table cellpadding=10 cellspacing="10">
     <tr>
-      <td><h1 class="text-left"id="home"> <em><%=link_to "ExpenseIt", root_path%> </em></h1>
+      <td><h1 class="text-left"id="home"> <em><%=link_to "ExpenseIt", root_path%> </em></h1></td>
       <% if user_signed_in? %>
-        <td><%= link_to('<button>Logout</button>'.html_safe, destroy_user_session_path, :method => :delete)%></th>
-        <td><%= link_to('<button>My Expenses</button>'.html_safe , user_path(current_user))%></th>
+        <td><%= link_to 'Logout', destroy_user_session_path, :method => :delete, class: "btn btn-danger"%></td>
+        <td><%= link_to 'My Expenses', user_path(current_user), class: 'btn btn-info'%></td>
+        <td><%= link_to 'Report' , report_user_path(current_user), class: 'btn btn-info'%></td>
         <% if current_user.admin? %>
-          <td><%= link_to('<button>Users</button>'.html_safe , users_path(current_user))%></td>
+          <td><%= link_to 'Users', users_path(current_user), class: 'btn btn-info'%></td>
         <%end%>
       <% else %>
-        <td><%= link_to('<button>Login</button>'.html_safe, new_user_session_path)%></th>
-        <td><%= link_to('<button>Sign-Up</button>'.html_safe, new_user_registration_path)%></th>  
+        <td><%= link_to 'Login', new_user_session_path, class: 'btn btn-primary'%></td>
+        <td><%= link_to 'Sign-Up', new_user_registration_path, class: 'btn btn-success'%></td>  
       <% end %>
     </tr>
   </table>

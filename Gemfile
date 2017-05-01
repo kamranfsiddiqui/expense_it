@@ -17,6 +17,8 @@ gem 'coffee-rails', '~> 4.1.0'
 #user authentication
 gem 'devise', '3.4.1'
 
+gem 'pg'
+
 #testing frameworks
 group :test do
   gem 'rspec-rails'
