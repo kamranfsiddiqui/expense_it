@@ -1,0 +1,2727 @@
+total 192
+-rw-r--r--   1 Kamran  staff   1.9K Apr 30 19:37 Gemfile
+-rw-r--r--   1 Kamran  staff   6.4K Apr 30 19:37 Gemfile.lock
+-rw-r--r--   1 Kamran  staff   478B Apr 26 14:52 README.rdoc
+-rw-r--r--   1 Kamran  staff   249B Apr 26 14:52 Rakefile
+drwxr-xr-x   8 Kamran  staff   272B Apr 29 22:41 app/
+drwxr-xr-x   7 Kamran  staff   238B Apr 26 14:55 bin/
+drwxr-xr-x  12 Kamran  staff   408B Apr 30 20:51 config/
+-rw-r--r--   1 Kamran  staff   153B Apr 26 14:52 config.ru
+drwxr-xr-x   6 Kamran  staff   204B Apr 29 23:22 db/
+drwxr-xr-x   5 Kamran  staff   170B Apr 30 20:48 features/
+drwxr-xr-x   4 Kamran  staff   136B Apr 26 14:52 lib/
+drwxr-xr-x   5 Kamran  staff   170B Apr 30 20:31 log/
+-rw-r--r--   1 Kamran  staff     0B Apr 30 20:53 ls.txt
+-rw-r--r--   1 Kamran  staff    36K Apr 30 18:49 project_dev
+-rw-r--r--   1 Kamran  staff    36K Apr 30 20:29 project_test
+drwxr-xr-x   7 Kamran  staff   238B Apr 26 14:52 public/
+drwxr-xr-x   3 Kamran  staff   102B Apr 30 19:38 script/
+drwxr-xr-x   3 Kamran  staff   102B Apr 30 19:29 spec/
+drwxr-xr-x   9 Kamran  staff   306B Apr 30 19:24 test/
+drwxr-xr-x   6 Kamran  staff   204B Apr 27 19:11 tmp/
+drwxr-xr-x   3 Kamran  staff   102B Apr 26 14:52 vendor/
+
+./app:
+total 0
+drwxr-xr-x  5 Kamran  staff   170B Apr 26 14:52 assets/
+drwxr-xr-x  8 Kamran  staff   272B Apr 30 19:04 controllers/
+drwxr-xr-x  6 Kamran  staff   204B Apr 27 19:20 helpers/
+drwxr-xr-x  3 Kamran  staff   102B Apr 26 14:52 mailers/
+drwxr-xr-x  7 Kamran  staff   238B Apr 30 18:48 models/
+drwxr-xr-x  7 Kamran  staff   238B Apr 30 16:30 views/
+
+./app/assets:
+total 0
+drwxr-xr-x  3 Kamran  staff   102B Apr 26 14:52 images/
+drwxr-xr-x  6 Kamran  staff   204B Apr 28 22:20 javascripts/
+drwxr-xr-x  6 Kamran  staff   204B Apr 28 20:08 stylesheets/
+
+./app/assets/images:
+
+./app/assets/javascripts:
+total 32
+-rw-r--r--  1 Kamran  staff   693B Apr 28 22:20 application.js
+-rw-r--r--  1 Kamran  staff   211B Apr 26 23:32 expenses.coffee
+-rw-r--r--  1 Kamran  staff   211B Apr 27 19:20 pages.coffee
+-rw-r--r--  1 Kamran  staff   211B Apr 26 23:34 users.coffee
+
+./app/assets/stylesheets:
+total 32
+-rw-r--r--  1 Kamran  staff   737B Apr 28 20:08 application.css.sass
+-rw-r--r--  1 Kamran  staff   179B Apr 26 23:32 expenses.scss
+-rw-r--r--  1 Kamran  staff   176B Apr 27 19:20 pages.scss
+-rw-r--r--  1 Kamran  staff   176B Apr 26 23:34 users.scss
+
+./app/controllers:
+total 40
+-rw-r--r--  1 Kamran  staff   810B Apr 30 14:32 application_controller.rb
+drwxr-xr-x  3 Kamran  staff   102B Apr 26 14:52 concerns/
+-rw-r--r--  1 Kamran  staff   5.0K Apr 30 19:04 expenses_controller.rb
+-rw-r--r--  1 Kamran  staff    67B Apr 27 19:20 pages_controller.rb
+-rw-r--r--  1 Kamran  staff   1.6K Apr 30 15:56 users_controller.rb
+
+./app/controllers/concerns:
+
+./app/helpers:
+total 32
+-rw-r--r--  1 Kamran  staff    29B Apr 26 14:52 application_helper.rb
+-rw-r--r--  1 Kamran  staff    26B Apr 26 23:32 expenses_helper.rb
+-rw-r--r--  1 Kamran  staff    23B Apr 27 19:20 pages_helper.rb
+-rw-r--r--  1 Kamran  staff    23B Apr 26 23:34 users_helper.rb
+
+./app/mailers:
+
+./app/models:
+total 16
+drwxr-xr-x  3 Kamran  staff   102B Apr 26 14:52 concerns/
+-rw-r--r--  1 Kamran  staff   824B Apr 30 18:48 expense.rb
+-rw-r--r--  1 Kamran  staff   625B Apr 30 18:48 user.rb
+
+./app/models/concerns:
+
+./app/views:
+total 0
+drwxr-xr-x   9 Kamran  staff   306B Apr 30 18:42 devise/
+drwxr-xr-x   8 Kamran  staff   272B Apr 30 20:47 expenses/
+drwxr-xr-x   4 Kamran  staff   136B Apr 30 14:55 layouts/
+drwxr-xr-x   3 Kamran  staff   102B Apr 30 00:03 pages/
+drwxr-xr-x  10 Kamran  staff   340B Apr 30 20:47 users/
+
+./app/views/devise:
+total 0
+drwxr-xr-x  3 Kamran  staff   102B Apr 29 00:23 confirmations/
+drwxr-xr-x  5 Kamran  staff   170B Apr 29 00:23 mailer/
+drwxr-xr-x  4 Kamran  staff   136B Apr 29 00:24 passwords/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 18:42 registrations/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 18:09 sessions/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 23:40 shared/
+drwxr-xr-x  3 Kamran  staff   102B Apr 29 00:25 unlocks/
+
+./app/views/devise/confirmations:
+total 8
+-rw-r--r--  1 Kamran  staff   440B Apr 29 00:23 new.html.erb
+
+./app/views/devise/mailer:
+total 24
+-rw-r--r--  1 Kamran  staff   198B Apr 26 15:57 confirmation_instructions.html.erb
+-rw-r--r--  1 Kamran  staff   393B Apr 26 15:57 reset_password_instructions.html.erb
+-rw-r--r--  1 Kamran  staff   276B Apr 26 15:57 unlock_instructions.html.erb
+
+./app/views/devise/passwords:
+total 16
+-rw-r--r--  1 Kamran  staff   677B Apr 29 00:24 edit.html.erb
+-rw-r--r--  1 Kamran  staff   428B Apr 29 00:24 new.html.erb
+
+./app/views/devise/registrations:
+total 16
+-rw-r--r--  1 Kamran  staff   1.3K Apr 26 15:57 edit.html.erb
+-rw-r--r--  1 Kamran  staff   1.7K Apr 30 18:42 new.html.erb
+
+./app/views/devise/sessions:
+total 8
+-rw-r--r--  1 Kamran  staff   1.6K Apr 29 00:00 new.html.erb
+
+./app/views/devise/shared:
+total 8
+-rw-r--r--  1 Kamran  staff   1.1K Apr 28 23:40 _links.html.erb
+
+./app/views/devise/unlocks:
+total 8
+-rw-r--r--  1 Kamran  staff   422B Apr 29 00:25 new.html.erb
+
+./app/views/expenses:
+total 48
+-rw-r--r--  1 Kamran  staff   1.5K Apr 30 15:27 _form.html.erb
+-rw-r--r--  1 Kamran  staff   107B Apr 29 01:05 edit.html.erb
+-rw-r--r--  1 Kamran  staff   1.3K Apr 30 14:32 index.html.erb
+-rw-r--r--  1 Kamran  staff    68B Apr 30 14:50 new.html.erb
+-rw-r--r--  1 Kamran  staff   743B Apr 30 18:56 report.html.erb
+-rw-r--r--  1 Kamran  staff   974B Apr 29 01:21 show.html.erb
+
+./app/views/layouts:
+total 16
+-rw-r--r--  1 Kamran  staff   351B Apr 30 14:55 _messages.erb
+-rw-r--r--  1 Kamran  staff   1.2K Apr 30 01:28 application.html.erb
+
+./app/views/pages:
+total 8
+-rw-r--r--  1 Kamran  staff    48B Apr 28 17:16 home.html.erb
+
+./app/views/users:
+total 64
+-rw-r--r--  1 Kamran  staff    72B Apr 26 23:34 create.html.erb
+-rw-r--r--  1 Kamran  staff    74B Apr 26 23:34 destroy.html.erb
+-rw-r--r--  1 Kamran  staff    68B Apr 26 23:34 edit.html.erb
+-rw-r--r--  1 Kamran  staff   530B Apr 29 00:36 index.html.erb
+-rw-r--r--  1 Kamran  staff    66B Apr 26 23:34 new.html.erb
+-rw-r--r--  1 Kamran  staff   1.4K Apr 30 18:56 report.html.erb
+-rw-r--r--  1 Kamran  staff    68B Apr 26 23:34 show.html.erb
+-rw-r--r--  1 Kamran  staff    72B Apr 26 23:34 update.html.erb
+
+./bin:
+total 40
+-rwxr-xr-x  1 Kamran  staff   129B Apr 26 14:52 bundle*
+-rwxr-xr-x  1 Kamran  staff   268B Apr 26 14:55 rails*
+-rwxr-xr-x  1 Kamran  staff   213B Apr 26 14:55 rake*
+-rwxr-xr-x  1 Kamran  staff   805B Apr 26 14:52 setup*
+-rwxr-xr-x  1 Kamran  staff   507B Apr 26 14:55 spring*
+
+./config:
+total 56
+-rw-r--r--   1 Kamran  staff   1.1K Apr 26 14:52 application.rb
+-rw-r--r--   1 Kamran  staff   132B Apr 26 14:52 boot.rb
+-rw-r--r--   1 Kamran  staff   453B Apr 30 19:38 cucumber.yml
+-rw-r--r--   1 Kamran  staff   604B Apr 30 19:38 database.yml
+-rw-r--r--   1 Kamran  staff   150B Apr 26 14:52 environment.rb
+drwxr-xr-x   5 Kamran  staff   170B Apr 29 20:54 environments/
+drwxr-xr-x  11 Kamran  staff   374B Apr 26 15:51 initializers/
+drwxr-xr-x   4 Kamran  staff   136B Apr 26 15:51 locales/
+-rw-r--r--   1 Kamran  staff   207B Apr 30 00:28 routes.rb
+-rw-r--r--   1 Kamran  staff   964B Apr 26 14:52 secrets.yml
+
+./config/environments:
+total 24
+-rw-r--r--  1 Kamran  staff   1.6K Apr 26 14:52 development.rb
+-rw-r--r--  1 Kamran  staff   3.2K Apr 26 14:52 production.rb
+-rw-r--r--  1 Kamran  staff   1.7K Apr 26 14:52 test.rb
+
+./config/initializers:
+total 96
+-rw-r--r--  1 Kamran  staff   486B Apr 26 14:52 assets.rb
+-rw-r--r--  1 Kamran  staff   404B Apr 26 14:52 backtrace_silencers.rb
+-rw-r--r--  1 Kamran  staff   129B Apr 26 14:52 cookies_serializer.rb
+-rw-r--r--  1 Kamran  staff    12K Apr 26 15:51 devise.rb
+-rw-r--r--  1 Kamran  staff   194B Apr 26 14:52 filter_parameter_logging.rb
+-rw-r--r--  1 Kamran  staff   647B Apr 26 14:52 inflections.rb
+-rw-r--r--  1 Kamran  staff   156B Apr 26 14:52 mime_types.rb
+-rw-r--r--  1 Kamran  staff   142B Apr 26 14:52 session_store.rb
+-rw-r--r--  1 Kamran  staff   517B Apr 26 14:52 wrap_parameters.rb
+
+./config/locales:
+total 16
+-rw-r--r--  1 Kamran  staff   3.9K Apr 26 15:51 devise.en.yml
+-rw-r--r--  1 Kamran  staff   634B Apr 26 14:52 en.yml
+
+./db:
+total 88
+-rw-r--r--  1 Kamran  staff    36K Apr 29 18:57 development.sqlite3
+drwxr-xr-x  7 Kamran  staff   238B Apr 30 01:12 migrate/
+-rw-r--r--  1 Kamran  staff   1.9K Apr 29 23:07 schema.rb
+-rw-r--r--  1 Kamran  staff   343B Apr 26 14:52 seeds.rb
+
+./db/migrate:
+total 40
+-rw-r--r--  1 Kamran  staff   1.3K Apr 26 15:51 20170426225118_devise_create_users.rb
+-rw-r--r--  1 Kamran  staff   109B Apr 26 17:18 20170426233303_add_role_to_users.rb
+-rw-r--r--  1 Kamran  staff   215B Apr 26 17:38 20170427003801_create_expenses.rb
+-rw-r--r--  1 Kamran  staff   142B Apr 28 00:19 20170428071934_add_user_id_to_expenses.rb
+-rw-r--r--  1 Kamran  staff   112B Apr 28 15:36 20170428223606_add_name_to_expenses.rb
+
+./features:
+total 8
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:49 step_definitions/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 support/
+-rw-r--r--  1 Kamran  staff   1.2K Apr 30 20:28 user_sign_up.feature
+
+./features/step_definitions:
+total 16
+-rw-r--r--  1 Kamran  staff   7.0K Apr 30 20:49 web_steps.rb
+
+./features/support:
+total 24
+-rw-r--r--  1 Kamran  staff   2.6K Apr 30 19:38 env.rb
+-rw-r--r--  1 Kamran  staff   1.8K Apr 30 20:46 paths.rb
+-rw-r--r--  1 Kamran  staff   1.0K Apr 30 19:39 selectors.rb
+
+./lib:
+total 0
+drwxr-xr-x  3 Kamran  staff   102B Apr 26 14:52 assets/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 19:38 tasks/
+
+./lib/assets:
+
+./lib/tasks:
+total 8
+-rw-r--r--  1 Kamran  staff   2.7K Apr 30 19:38 cucumber.rake
+
+./log:
+total 3016
+-rw-r--r--  1 Kamran  staff   1.5M Apr 30 20:29 development.log
+-rw-r--r--  1 Kamran  staff   2.4K Apr 30 20:46 test.log
+
+./public:
+total 32
+-rw-r--r--  1 Kamran  staff   1.5K Apr 26 14:52 404.html
+-rw-r--r--  1 Kamran  staff   1.5K Apr 26 14:52 422.html
+-rw-r--r--  1 Kamran  staff   1.4K Apr 26 14:52 500.html
+-rw-r--r--  1 Kamran  staff     0B Apr 26 14:52 favicon.ico
+-rw-r--r--  1 Kamran  staff   202B Apr 26 14:52 robots.txt
+
+./script:
+total 8
+-rwxr-xr-x  1 Kamran  staff   305B Apr 30 19:38 cucumber*
+
+./spec:
+total 0
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 19:31 controllers/
+
+./spec/controllers:
+total 0
+-rw-r--r--  1 Kamran  staff     0B Apr 30 19:31 user_controller_spec.rb
+
+./test:
+total 8
+drwxr-xr-x  6 Kamran  staff   204B Apr 27 19:20 controllers/
+drwxr-xr-x  5 Kamran  staff   170B Apr 26 17:38 fixtures/
+drwxr-xr-x  3 Kamran  staff   102B Apr 26 14:52 helpers/
+drwxr-xr-x  3 Kamran  staff   102B Apr 29 18:42 integration/
+drwxr-xr-x  3 Kamran  staff   102B Apr 26 14:52 mailers/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 19:24 models/
+-rw-r--r--  1 Kamran  staff   312B Apr 29 18:42 test_helper.rb
+
+./test/controllers:
+total 24
+-rw-r--r--  1 Kamran  staff   745B Apr 26 23:32 expenses_controller_test.rb
+-rw-r--r--  1 Kamran  staff   160B Apr 27 19:20 pages_controller_test.rb
+-rw-r--r--  1 Kamran  staff   734B Apr 26 23:34 users_controller_test.rb
+
+./test/fixtures:
+total 16
+-rw-r--r--  1 Kamran  staff   229B Apr 26 17:38 expenses.yml
+-rw-r--r--  1 Kamran  staff   355B Apr 26 15:51 users.yml
+
+./test/helpers:
+
+./test/integration:
+
+./test/mailers:
+
+./test/models:
+total 16
+-rw-r--r--  1 Kamran  staff   121B Apr 26 17:38 expense_test.rb
+-rw-r--r--  1 Kamran  staff   140B Apr 30 19:20 user_test.rb
+
+./tmp:
+total 0
+drwxr-xr-x  3 Kamran  staff   102B Apr 26 14:52 cache/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 18:40 pids/
+drwxr-xr-x  2 Kamran  staff    68B Apr 27 19:11 sessions/
+drwxr-xr-x  2 Kamran  staff    68B Apr 27 19:11 sockets/
+
+./tmp/cache:
+total 0
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 assets/
+
+./tmp/cache/assets:
+total 0
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 sprockets/
+
+./tmp/cache/assets/sprockets:
+total 0
+drwxr-xr-x  454 Kamran  staff    15K Apr 30 20:46 v3.0/
+
+./tmp/cache/assets/sprockets/v3.0:
+total 0
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 -7/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 -C/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 -F/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 -H/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 -W/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 -b/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 -j/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 -m/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 -s/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 -u/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 06/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 0H/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 0Y/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 0_/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 0a/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 0d/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 0j/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 0m/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 0n/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 0t/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 0u/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 1C/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 1D/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 1P/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 1s/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 1x/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 1y/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 20/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 27/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 2G/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 2H/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 2Y/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 2_/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 2e/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 2s/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 3E/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 3Q/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 40/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 43/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 4E/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 4U/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 22:19 4a/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 52/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 5L/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 5V/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 5a/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 5i/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 5n/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 5y/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 62/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 63/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 67/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 6X/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 6j/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 6v/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 79/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 7N/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 7l/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 7p/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 85/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 89/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 8D/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 8R/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 8U/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 8Y/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 8Z/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 8b/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 8v/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 90/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 91/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 9K/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 9d/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 9r/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 9u/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 A0/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 A1/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 A4/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 A9/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 AB/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 AP/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Aa/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 An/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Ar/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 Au/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 Av/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 B2/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 B3/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 BF/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 BP/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 BR/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 BS/
+drwxr-xr-x  5 Kamran  staff   170B Apr 28 20:35 BZ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 B_/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Bn/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 Bq/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Bu/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Bw/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 CC/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 CQ/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 CS/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 CU/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Ca/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 22:26 Ch/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Ct/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 D5/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 DH/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 DJ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 DS/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 DT/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Dg/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 E1/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 E8/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 E9/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 EA/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 EB/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 EJ/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 EU/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 EV/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 Ec/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Ee/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 Es/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 Ew/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Ez/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 F0/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 F6/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 F8/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 FC/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 FK/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 FP/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 FY/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 G3/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 G8/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 GV/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Gb/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Gs/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 Gu/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 Gy/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 H1/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 H2/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 H4/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 HK/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 HM/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 HV/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 HY/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Hu/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 I0/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 I9/
+drwxr-xr-x  7 Kamran  staff   238B Apr 30 20:46 IQ/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 IS/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Id/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Il/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 J0/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 J1/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 J9/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 JO/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 JQ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Jf/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Jm/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 Jr/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 K3/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 K8/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 KA/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 KE/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 KN/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Kd/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 L7/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 M3/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 MG/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 MQ/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 MV/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Md/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Mh/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Mn/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 Mp/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Mr/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 Mt/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 NP/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 NT/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 NV/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 N_/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Nb/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Ng/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 O-/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 O6/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 OD/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 OF/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 OI/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 OP/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Oa/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 Ou/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 P9/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 PM/
+drwxr-xr-x  5 Kamran  staff   170B Apr 28 20:35 PQ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 22:19 PX/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 QP/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 QQ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Qi/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Qm/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Qy/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 R0/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 RB/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 RH/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 RI/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 RP/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 RZ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 SG/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 SM/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 SV/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 SZ/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 Sa/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 T7/
+drwxr-xr-x  4 Kamran  staff   136B Apr 27 19:22 TC/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 TD/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 TN/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 Th/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 Tp/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Tr/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Ts/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 U-/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 UG/
+drwxr-xr-x  6 Kamran  staff   204B Apr 30 20:46 UJ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Ue/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Uh/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 Um/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 V5/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 V7/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 VM/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 Vi/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Vj/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 Vv/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Vx/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 W1/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 W8/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 WM/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 WN/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 WY/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 Wg/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Wj/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 Wu/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 X5/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 XE/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 XQ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Xl/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 Xu/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Y7/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 YA/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 YD/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 22:19 YM/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 Yc/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Yn/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Z7/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Z9/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 ZU/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 Za/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 Zb/
+drwxr-xr-x  6 Kamran  staff   204B Apr 30 20:46 Zj/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 Zq/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 Zv/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 Zz/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 _E/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 _H/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 _K/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 _N/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 _W/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 _a/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 _l/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 aD/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 aF/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 aO/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 aY/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 22:19 ae/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 b1/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 22:19 b6/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 b9/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 bA/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 bO/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 bV/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 c8/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 cB/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 cF/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 cI/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 cR/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 cV/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 cX/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 cd/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 d1/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 d2/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 22:19 dB/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 dK/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 dL/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 dN/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 dO/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 da/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 dd/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 dq/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 e-/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 eN/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 eQ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 ef/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 ek/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 eo/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 fF/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 fO/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 fQ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 fX/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 fZ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 fa/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 fe/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 fi/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 fu/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 g2/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 g9/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 gF/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 gG/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 gZ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 g_/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 gi/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 gn/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 gq/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 gt/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 h8/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 hB/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 hD/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 hG/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 hj/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 hz/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 i3/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 i6/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 iB/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 iF/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 iG/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 iH/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 iR/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 iW/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 iX/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 j6/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 jB/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 jE/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 jI/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 jU/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 jd/
+drwxr-xr-x  5 Kamran  staff   170B Apr 28 20:35 jw/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 jy/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 k-/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 22:19 k2/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 k9/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 kQ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 kS/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 kT/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 kU/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 kX/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 kw/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 ky/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 l-/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 l3/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 l4/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 lM/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 lT/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 lb/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 lc/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 lv/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 ly/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 m4/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 m8/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 mX/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 mZ/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 m_/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 mk/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 mu/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 my/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 n0/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 n7/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 nM/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 nO/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 nW/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 o0/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 o8/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 o9/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 oS/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 oY/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 oc/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 ok/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 p6/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 pG/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 pu/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 22:26 qA/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 qK/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 qT/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 qo/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 r8/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 r9/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 rX/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 r_/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 rd/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 rj/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 rw/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 s0/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 sB/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 sK/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 sO/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 sc/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 st/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 su/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 t1/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 tE/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 t_/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 tf/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 tk/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 tv/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 tw/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 ty/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 u1/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 u2/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 u3/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 uC/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 uF/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 uS/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 uZ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 vB/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 vD/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 vW/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 vc/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 vf/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 vn/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 wB/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 wC/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 wH/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 wX/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 wa/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 we/
+drwxr-xr-x  5 Kamran  staff   170B Apr 30 20:46 wi/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 wt/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 wz/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 xH/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 xZ/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 xc/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 xv/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 y0/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 y4/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 y6/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 yG/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 yL/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 yV/
+drwxr-xr-x  4 Kamran  staff   136B Apr 30 20:46 yX/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 yp/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 yr/
+drwxr-xr-x  3 Kamran  staff   102B Apr 27 19:22 ys/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 yu/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 z8/
+drwxr-xr-x  3 Kamran  staff   102B Apr 30 20:46 zE/
+drwxr-xr-x  3 Kamran  staff   102B Apr 28 20:35 zW/
+drwxr-xr-x  4 Kamran  staff   136B Apr 28 20:35 zt/
+
+./tmp/cache/assets/sprockets/v3.0/-7:
+total 8
+-rw-r--r--  1 Kamran  staff   2.4K Apr 28 20:35 -74vkkzLno0wnlIq8p0bvGUzBiSV75qCx5K5wyFRDZE.cache
+
+./tmp/cache/assets/sprockets/v3.0/-C:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 -CTv9QHpzdKkVwHmjXHfQqnlXLUj0zvuLNbklGVBQt8.cache
+
+./tmp/cache/assets/sprockets/v3.0/-F:
+total 8
+-rw-r--r--  1 Kamran  staff   2.0K Apr 30 20:46 -FoZ7KDLMfB_7xiMYIaNx3x-RRm8f0v3Dk5o8UWSGRs.cache
+
+./tmp/cache/assets/sprockets/v3.0/-H:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 -HT0y-njHmzbPAeBAoBhFPfdNQSn3mNaP2PZNQkGcfM.cache
+
+./tmp/cache/assets/sprockets/v3.0/-W:
+total 8
+-rw-r--r--  1 Kamran  staff   235B Apr 30 20:46 -WzbJdtgm1yVS-FfMfXlbuRWzgxnBklgqOt-jz2RrNw.cache
+
+./tmp/cache/assets/sprockets/v3.0/-b:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 -bzaCuf5xT4NZ55feElj7_Jodf4XUqv1pgupVC8NpVo.cache
+
+./tmp/cache/assets/sprockets/v3.0/-j:
+total 8
+-rw-r--r--  1 Kamran  staff   947B Apr 30 20:46 -jdJni1KUVj2djiprCokmSz7XRaNPsq77aF4Mu856_I.cache
+
+./tmp/cache/assets/sprockets/v3.0/-m:
+total 8
+-rw-r--r--  1 Kamran  staff   1.0K Apr 30 20:46 -mSksHZPbuCsJokUrmQEPKsvaYvEY1iVBs7m2suIzPg.cache
+
+./tmp/cache/assets/sprockets/v3.0/-s:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 -syFmbycrEPYvhYke30DCzmp22woLpxVZiD44AtTzDg.cache
+
+./tmp/cache/assets/sprockets/v3.0/-u:
+total 8
+-rw-r--r--  1 Kamran  staff   962B Apr 30 18:40 -u9EvbCAig6AfXQNjQBVCk0CNhiWSqJfy_HffRaiyXU.cache
+
+./tmp/cache/assets/sprockets/v3.0/06:
+total 8
+-rw-r--r--  1 Kamran  staff   2.0K Apr 30 18:40 06aLwQkJWz-9NChWjifZXPbq2HUoagNQ27F_BQqp47c.cache
+
+./tmp/cache/assets/sprockets/v3.0/0H:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 0HB0B8J9-Y46vb_WdvW4l47MghzozOiMJITE08q0HzM.cache
+
+./tmp/cache/assets/sprockets/v3.0/0Y:
+total 8
+-rw-r--r--  1 Kamran  staff   217B Apr 30 18:40 0YhdHsdQDA4MuMX7xAIUZ2iSsbWMe5duLo6376361Ys.cache
+
+./tmp/cache/assets/sprockets/v3.0/0_:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 0_q8IkDvO0Naof3hGAraFSP4XP8jc9LNMT4pcRLn0f4.cache
+
+./tmp/cache/assets/sprockets/v3.0/0a:
+total 8
+-rw-r--r--  1 Kamran  staff   3.3K Apr 28 20:35 0aX0SAAgB6nHEGl5ES_DIYHqu5a7JjNJ4rzO3-NMANM.cache
+
+./tmp/cache/assets/sprockets/v3.0/0d:
+total 8
+-rw-r--r--  1 Kamran  staff   2.0K Apr 30 20:46 0d7pPKBDj_W7m_D83XJKJR6zMRmwfPQ8fU_l4yg5NF4.cache
+
+./tmp/cache/assets/sprockets/v3.0/0j:
+total 8
+-rw-r--r--  1 Kamran  staff   220B Apr 30 18:40 0j5DxVD7LPONW2MrsyjWNUcB8zSHsN6tlfGtbksgAd0.cache
+
+./tmp/cache/assets/sprockets/v3.0/0m:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 0mt5UgsWH2K8fn1B8QAXjym3WYttWdA8Zwnk3B6I-48.cache
+
+./tmp/cache/assets/sprockets/v3.0/0n:
+total 24
+-rw-r--r--  1 Kamran  staff   4.5K Apr 30 20:46 0NvU0rb0gyDgs32qTicmOLfWQwyOV7-6x43WYu67u5o.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 0nRpMg4VuH_N-WNDpmCepgw1j0tKsGT_903nNFFWJac.cache
+
+./tmp/cache/assets/sprockets/v3.0/0t:
+total 8
+-rw-r--r--  1 Kamran  staff   242B Apr 30 20:46 0t3V5U-6vfpFN3UlLthA1xq4e_TyAosMHw1P2_zhYs4.cache
+
+./tmp/cache/assets/sprockets/v3.0/0u:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 0ufmsezeKCIZItefojyyfB2KrOxbYsMBwNvAU0sJyfk.cache
+
+./tmp/cache/assets/sprockets/v3.0/1C:
+total 8
+-rw-r--r--  1 Kamran  staff   223B Apr 28 20:35 1CVc6ctt1SnWwiGI_s3o80zaJb--x110QY4T9zBnt08.cache
+
+./tmp/cache/assets/sprockets/v3.0/1D:
+total 8
+-rw-r--r--  1 Kamran  staff   144B Apr 30 20:46 1D6ry95nLFUqlI0f_XpnWBn8GGFIrQ90dILJeEVRmr4.cache
+
+./tmp/cache/assets/sprockets/v3.0/1P:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 1P7dZcAz1CMoQaf2kkpXIS-I9QL7moHd7iWWndXJ6Xw.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 1Pp_bmriiP8nRnFjlBOHBq5zEirUlorTQpoccePjDHA.cache
+
+./tmp/cache/assets/sprockets/v3.0/1s:
+total 16
+-rw-r--r--  1 Kamran  staff   1.2K Apr 30 20:46 1SKuaBqPVoK2hsWTbd7BIM-0JKNK4uTKIJEcC7VcQx8.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 1s1D4oLDA1UentGslIutxGOPLhXr4cFWBcZibJNbTVM.cache
+
+./tmp/cache/assets/sprockets/v3.0/1x:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 1X9GQKHsrIklcnT5RDN9bTUbDR9qE4-AuZsW4FYJ6Ew.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 1xnURFEzK61GxI4g2EzVHQnU6BFkPtM5JqLQvX7K_ZA.cache
+
+./tmp/cache/assets/sprockets/v3.0/1y:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 1yTAlsOC8psQ7g164GrVC5LOI0MMltKvnsGTKCk_5ZA.cache
+
+./tmp/cache/assets/sprockets/v3.0/20:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 20URw2pKvcQUW_YwRWwNCBAzZjxNGVKOgPy1y_SNiLA.cache
+
+./tmp/cache/assets/sprockets/v3.0/27:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 27zzOF0NuSm50axmp5hfPs5d_EeIl4-twVXt4WD5eno.cache
+
+./tmp/cache/assets/sprockets/v3.0/2G:
+total 8
+-rw-r--r--  1 Kamran  staff   159B Apr 30 18:40 2GZ8Tedta8oU-n8OZNlYpOPSd1H4VNC4w031z4o1MK0.cache
+
+./tmp/cache/assets/sprockets/v3.0/2H:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 2HwsD6WHeR0YXia1ESNuAveFEWf5iyjx075f1Hzei0A.cache
+
+./tmp/cache/assets/sprockets/v3.0/2Y:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 2Yszh9iOxMYRNDu3pI9i5GTQKtDggBaqNy43qsYMcdI.cache
+
+./tmp/cache/assets/sprockets/v3.0/2_:
+total 8
+-rw-r--r--  1 Kamran  staff   158B Apr 28 18:37 2_CyHYHk0bLDKaFWWViaHfoIyIKS7DjEx9__VcurBd4.cache
+
+./tmp/cache/assets/sprockets/v3.0/2e:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 28 18:37 2eBzL5kYS3O6I541SYskf7Q8Dl4MJFNmGUufmpAtDuQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/2s:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 2spLq7BDXIwM9LjpPzB3RxC3zn0_TR6BDSAXf0j7eoo.cache
+
+./tmp/cache/assets/sprockets/v3.0/3E:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 3EfJPQIVio73ms3zgq-qfy1zDkJDwDWPW2TOdf5e2bk.cache
+
+./tmp/cache/assets/sprockets/v3.0/3Q:
+total 16
+-rw-r--r--  1 Kamran  staff   158B Apr 30 18:40 3QguJxrciK3vzfQ6dqE1xe7DzlFfgtN7YpPOcUbieTQ.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 3qTimogtYDDpG7xwU12uPar0YgXOpMIgkA_libTkd4s.cache
+
+./tmp/cache/assets/sprockets/v3.0/40:
+total 8
+-rw-r--r--  1 Kamran  staff   262B Apr 30 20:46 40s7hLaa4-HLZpS5gwYCtcdrBeIHJr3jd4gGh5ZRlOM.cache
+
+./tmp/cache/assets/sprockets/v3.0/43:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 43V6sSxjytq0ky4T0mOxVkz6vzUt2h6Ru9kR_UojpkM.cache
+
+./tmp/cache/assets/sprockets/v3.0/4E:
+total 56
+-rw-r--r--  1 Kamran  staff    28K Apr 30 20:46 4EVniJkt5z_WPz7IG5F2RUxyr6NLuEWBZdFVh_EhviQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/4U:
+total 8
+-rw-r--r--  1 Kamran  staff   1.2K Apr 30 20:46 4UR0qfgxrVL24FdqhnklvyI3Zlv3OvBsQtvY_wHj7eY.cache
+
+./tmp/cache/assets/sprockets/v3.0/4a:
+total 8
+-rw-r--r--  1 Kamran  staff   158B Apr 28 22:19 4a-boMqUEIg7RCp7ti90mtv9SWV1ilyXRjpniOGjojU.cache
+
+./tmp/cache/assets/sprockets/v3.0/52:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 52ZUB4PFPUg7I8jkLVDHuAFDvr6EVm3pcawITwcjwUI.cache
+
+./tmp/cache/assets/sprockets/v3.0/5L:
+total 8
+-rw-r--r--  1 Kamran  staff   557B Apr 28 18:37 5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache
+
+./tmp/cache/assets/sprockets/v3.0/5V:
+total 16
+-rw-r--r--  1 Kamran  staff   4.0K Apr 28 20:35 5Vyj7ZPlZjnNdIw-N7-wtES7RNk61AdB3mkBdEuYSi4.cache
+
+./tmp/cache/assets/sprockets/v3.0/5a:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 5a8io8qTbv3HFlqtfvA3AACXiuGP6Dtl8krPBCE3LFk.cache
+
+./tmp/cache/assets/sprockets/v3.0/5i:
+total 8
+-rw-r--r--  1 Kamran  staff   853B Apr 30 18:40 5ivram7oTgLLgZLjnFeMoqfLIi-aevTTRLdiExA0Pao.cache
+
+./tmp/cache/assets/sprockets/v3.0/5n:
+total 8
+-rw-r--r--  1 Kamran  staff   159B Apr 30 18:40 5nCDMA18nA-rJJNMLq_I4UxA4PLa5G-h_MOPENZunro.cache
+
+./tmp/cache/assets/sprockets/v3.0/5y:
+total 8
+-rw-r--r--  1 Kamran  staff   140B Apr 30 20:46 5y8od-HBaumC-vVLbeb6sYCZgCtOz5y0tfVgol49cIE.cache
+
+./tmp/cache/assets/sprockets/v3.0/62:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 62qyVrenDYPvubGGc6SnCH9GRtp8voeOsovNUyT9wno.cache
+
+./tmp/cache/assets/sprockets/v3.0/63:
+total 8
+-rw-r--r--  1 Kamran  staff   159B Apr 30 20:46 63cT-r1WlQpC5EYhXtYqzO2uPmK8ByHIZWRl21N6bk8.cache
+
+./tmp/cache/assets/sprockets/v3.0/67:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 67vEUHhoDncx35sLEOX_RqxtLWhD-ek20eoY3EW9MDo.cache
+
+./tmp/cache/assets/sprockets/v3.0/6X:
+total 8
+-rw-r--r--  1 Kamran  staff   221B Apr 30 18:40 6XDC3lN_suJolqa6vLN9cwvhQwgSucWrpB_jyVLraEQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/6j:
+total 24
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 6JAglWhiMogJrulTBmsxKOiLlr7_9m5o8Oc0hp9v4-U.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 6jPgbgeauJ8vkKK_cgfcHfLlXst1ZS2ES--K3I2b4rg.cache
+-rw-r--r--  1 Kamran  staff   1.1K Apr 30 20:46 6jVjbM0u91frERS01FIK1AoKwhHeQbo5dVgG__rkHFU.cache
+
+./tmp/cache/assets/sprockets/v3.0/6v:
+total 8
+-rw-r--r--  1 Kamran  staff   962B Apr 30 20:46 6vc8DQ1tjPmi47mzOVAc5kNr6Bv7bWkLFiGsumOnOGI.cache
+
+./tmp/cache/assets/sprockets/v3.0/79:
+total 8
+-rw-r--r--  1 Kamran  staff   221B Apr 30 18:40 794HUxzXo-gy4r1EbeKmgqcas2sPWQ2VRYNX2dK8iDo.cache
+
+./tmp/cache/assets/sprockets/v3.0/7N:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 7NO4dL5GV4uxTE5MEm5lsyPqdlq44xXGQNEgPP71o7I.cache
+
+./tmp/cache/assets/sprockets/v3.0/7l:
+total 8
+-rw-r--r--  1 Kamran  staff   854B Apr 30 18:40 7lyX2TD7xuXKalP3-tEQMa7_143mTyriyj2u3syi3WU.cache
+
+./tmp/cache/assets/sprockets/v3.0/7p:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 7p2bryxxLaeKVSW2AWuI4GM84JiFZ2X_9EFzijocHSU.cache
+
+./tmp/cache/assets/sprockets/v3.0/85:
+total 8
+-rw-r--r--  1 Kamran  staff   2.4K Apr 30 20:46 85NXs4j4HUoXm3ES_to8GlQO-zyJSW1oVPG8BtkB0uA.cache
+
+./tmp/cache/assets/sprockets/v3.0/89:
+total 8
+-rw-r--r--  1 Kamran  staff   738B Apr 30 20:23 89u8sPi_uPAdc-6ztTVpMR64qxJvKwd7oNY2JRxVsNo.cache
+
+./tmp/cache/assets/sprockets/v3.0/8D:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 8Dqyn6Sr2QFHVd2nzW_nJYxUHOrjvGZx7lKjS9hJyn0.cache
+
+./tmp/cache/assets/sprockets/v3.0/8R:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 8R4EXItHt2B-rh_E7IqANxL1UeYkKV4iK7iYHFW_2lg.cache
+
+./tmp/cache/assets/sprockets/v3.0/8U:
+total 8
+-rw-r--r--  1 Kamran  staff   1.1K Apr 30 18:40 8UCFmXFTU_uJayCo9daOmOU43qbyE_Y40gr2D91hN8w.cache
+
+./tmp/cache/assets/sprockets/v3.0/8Y:
+total 16
+-rw-r--r--  1 Kamran  staff   6.1K Apr 30 18:40 8Y8OqyA1dMNKy7Te5U_BIMt7_ll-MD_-hr61AKsB4wc.cache
+
+./tmp/cache/assets/sprockets/v3.0/8Z:
+total 8
+-rw-r--r--  1 Kamran  staff   306B Apr 30 20:23 8ZTKFTZlUk0A5eQcngoVmSe6oI6FrGLPMJ6Z83jc-Qk.cache
+
+./tmp/cache/assets/sprockets/v3.0/8b:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 8bstDPJRkt_Ea2R2kuZduUPJY6MZsQsaAASRpVmfi1o.cache
+
+./tmp/cache/assets/sprockets/v3.0/8v:
+total 24
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 8vA6-4rq4oeNunetHuGMbK2UTgN0Sgu_nKKFLANA45U.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 8vJN9znnBHkQON5EuTFlRtMajDSlIGNk88m7ClT56Pc.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 8vezz4goSahX7iIYR__TKryyTqDpiSh7lfntUPQhX-M.cache
+
+./tmp/cache/assets/sprockets/v3.0/90:
+total 16
+-rw-r--r--  1 Kamran  staff   319B Apr 30 20:46 90QHks0tfLSfkt5YCcB5yBXRlt2BlxIp9LHlNuZyeUo.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 90ifUheq_dfWxGfo0J2Km1v_rO-sXnX1bd0Csug9Ez0.cache
+
+./tmp/cache/assets/sprockets/v3.0/91:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 91956gDdhnKzZ22-nmlt96LhARvSSHP8L2ynu_E39qs.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 91kD6JJXCL7xXSr8yUs4LXGO88TJ1Fd2JFskxwhhPYc.cache
+
+./tmp/cache/assets/sprockets/v3.0/9K:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 9KBYwUs1Mv5MKWI-yXTk-pOiGOLYffz90DkiLEJY2OU.cache
+
+./tmp/cache/assets/sprockets/v3.0/9d:
+total 8
+-rw-r--r--  1 Kamran  staff   233B Apr 30 20:46 9d2sK03OvebF1_8n2u2IweIFk0uMfSRB1zFGWsHIhSo.cache
+
+./tmp/cache/assets/sprockets/v3.0/9r:
+total 8
+-rw-r--r--  1 Kamran  staff   318B Apr 30 20:46 9reORjPmVBPqVUzL3jm66rHDcPBSfg0UIaXpV4cSCV4.cache
+
+./tmp/cache/assets/sprockets/v3.0/9u:
+total 8
+-rw-r--r--  1 Kamran  staff   145B Apr 28 18:37 9upDnFsHsBFrRCykPzRQre2CZu2ABgO2DRD2_ZPJGbk.cache
+
+./tmp/cache/assets/sprockets/v3.0/A0:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 A0YYdmdljCxZZDteqW3R3kqOixXDRp1otqarshsIirY.cache
+
+./tmp/cache/assets/sprockets/v3.0/A1:
+total 8
+-rw-r--r--  1 Kamran  staff   1.1K Apr 30 20:46 A1EbFBnblyJ99lUX3NGXI0BHnv-9TpMMZSNGizlr-cc.cache
+
+./tmp/cache/assets/sprockets/v3.0/A4:
+total 8
+-rw-r--r--  1 Kamran  staff   1.2K Apr 30 20:46 A4A8xKycnSB7McAWbJrH14nBy_nRJ6bdfShZXvwq6kw.cache
+
+./tmp/cache/assets/sprockets/v3.0/A9:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 A9fHoJA3mzQp-MU-sReHRBMumRHpkxa1rZ_y_p-e7us.cache
+
+./tmp/cache/assets/sprockets/v3.0/AB:
+total 8
+-rw-r--r--  1 Kamran  staff   1.5K Apr 30 20:46 ABNpccalsocJyuJfRk3_dMMwZLFdme8JqxIH0S8pVeU.cache
+
+./tmp/cache/assets/sprockets/v3.0/AP:
+total 16
+-rw-r--r--  1 Kamran  staff   2.6K Apr 28 19:58 APY89OAPJx9A3D3xcCoktvEvQUs7NcWChYXnjjjPzz0.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 aP1t0NqnLa6Ndb4Clh2osgHGfaxtLHhQ2c0DSxeUJMs.cache
+
+./tmp/cache/assets/sprockets/v3.0/Aa:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 AamCJlebMsKhtahJQPV1rSJPsl48zzT30plwwA4SpBk.cache
+
+./tmp/cache/assets/sprockets/v3.0/An:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 28 18:37 An7tYqYLWVy5scORdVgXpfKYwcEQIx_63-pjMA5ntgE.cache
+
+./tmp/cache/assets/sprockets/v3.0/Ar:
+total 16
+-rw-r--r--  1 Kamran  staff   5.2K Apr 30 20:46 ArjtHtc6PVsRTXDvPwc2kKlmOvdkny28Jxld8mQJwkM.cache
+
+./tmp/cache/assets/sprockets/v3.0/Au:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 28 18:37 AuwnipP-79twojwsASYkiO-NSQZZZzpKBQPpA85d-48.cache
+
+./tmp/cache/assets/sprockets/v3.0/Av:
+total 8
+-rw-r--r--  1 Kamran  staff   140B Apr 30 18:40 AvjTbdaFMvCb_BKP8XPgvx7j5L7AjR7SQ8-sXTsaVYs.cache
+
+./tmp/cache/assets/sprockets/v3.0/B2:
+total 8
+-rw-r--r--  1 Kamran  staff   306B Apr 30 20:23 B2TAeRLzDTLgYSOrsj8qJOsp2dQkCTLwpnsrYTgusyo.cache
+
+./tmp/cache/assets/sprockets/v3.0/B3:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 B3QDqIiIkMdxEt3cUWKEdc1Msb8603lgZCEtI9Mf1fc.cache
+
+./tmp/cache/assets/sprockets/v3.0/BF:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 BF08nOr8DBYxrQ4PiVZ9KX1OZxAW5vQcb78vDOJmOyk.cache
+
+./tmp/cache/assets/sprockets/v3.0/BP:
+total 8
+-rw-r--r--  1 Kamran  staff   235B Apr 30 20:46 BP9O-qM0FA9Lj_buFomianyaAqPzhbHsWgl1sZpOhPw.cache
+
+./tmp/cache/assets/sprockets/v3.0/BR:
+total 8
+-rw-r--r--  1 Kamran  staff   2.0K Apr 28 20:35 BRyURZGnWnte1_au7L1QgbXRIXpHHht03gMOfpcBQxg.cache
+
+./tmp/cache/assets/sprockets/v3.0/BS:
+total 32
+-rw-r--r--  1 Kamran  staff   9.7K Apr 28 20:35 BS2VV4mHUWk7KDYDcFqJ75YR9ocyHlte4nnHoH8hdpw.cache
+-rw-r--r--  1 Kamran  staff   2.3K Apr 30 20:46 BSQjJvLXz6293d8xtSOOAV4l6QZVx2Oh98mCVnlOzYE.cache
+
+./tmp/cache/assets/sprockets/v3.0/BZ:
+total 24
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 BZTQZkEYMUD_iqtpufMy2Q6lQpsiZSRlZOORwdMAauY.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 Bzd0WJgjPeakavcntzbGRpvM-lVhV0iuO2ZTEaV1J_U.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 bzcHoaZ7TBeuHiG9xQ7PPWhjLpUvgLaZmV4Bess9g3I.cache
+
+./tmp/cache/assets/sprockets/v3.0/B_:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 B_wZA0xIOf6HC6y6-lRHv6j-rN1KxEvx9486kMXguKo.cache
+
+./tmp/cache/assets/sprockets/v3.0/Bn:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 BnT4BBP1-MzXO_BhqVpYfPvXjMQLcuxr95kG5XU_gvo.cache
+
+./tmp/cache/assets/sprockets/v3.0/Bq:
+total 24
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 BqLiBlVYBBVAxa1ajWffuIm16pevcM7Djm8LT4a8ANc.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 BqNqHVMKvCy1bign8H-rai1XkLchwI4Zsxl9JxV7t0k.cache
+-rw-r--r--  1 Kamran  staff   236B Apr 30 20:46 bQ9-orSSVHuszJAGkvehSj65HNYwk9XwagRR43ith_E.cache
+
+./tmp/cache/assets/sprockets/v3.0/Bu:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 Bu6JPxC0WHiyiGtldRMPDmysigS45IrtveAqI2hx9WI.cache
+
+./tmp/cache/assets/sprockets/v3.0/Bw:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 BwCxv2Oiu8wIwHpM_2ij9bLpOKrgaMfD1xDEh4NZhis.cache
+
+./tmp/cache/assets/sprockets/v3.0/CC:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 CCQBIo0xSN9xSph-fnBo9AsGjxJm-MM1qvCmGNxUihI.cache
+
+./tmp/cache/assets/sprockets/v3.0/CQ:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 28 20:35 CQqrWQbru1dpsErIxiDoej08mOmKgRsE1MS8yyJptmw.cache
+
+./tmp/cache/assets/sprockets/v3.0/CS:
+total 32
+-rw-r--r--  1 Kamran  staff    10K Apr 28 20:35 CSDl0fBQp1MOqP-MZaWqsdeKyqy5e1vOHuUIcPOcHqg.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 CScwCewbRGt5aR0q8dJj-9gw95IU5fp0rKcURSGvdFY.cache
+
+./tmp/cache/assets/sprockets/v3.0/CU:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 CUxmV69f8n5FuqCqNYf4SrJFR6SUPHMPf4xOVSs7Fdo.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 CuddCVmiofX2hq3yJv3RICjJ37fW5qE4NxbVxQa2_B8.cache
+
+./tmp/cache/assets/sprockets/v3.0/Ca:
+total 24
+-rw-r--r--  1 Kamran  staff   8.6K Apr 30 20:46 Ca6LLkb4cxp0BtTPFxSIubC7MOg2KGJr3kJEFM5KE20.cache
+
+./tmp/cache/assets/sprockets/v3.0/Ch:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 ChbC6AsigBw6KMjH4Mc_BllATjtrSyfYHDlNdSPazJE.cache
+
+./tmp/cache/assets/sprockets/v3.0/Ct:
+total 232
+-rw-r--r--  1 Kamran  staff   114K Apr 30 18:40 CtB9eMBlk24ydZSlq7BJqwmzBWecKIbNgpnS21y95K4.cache
+
+./tmp/cache/assets/sprockets/v3.0/D5:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 D5ucFr1KVACIG2U4kuKjlD-cdEYweuhIcybdl-FEn2Q.cache
+
+./tmp/cache/assets/sprockets/v3.0/DH:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 DHKcyZt4E24rZ7Vv7tV9sZJcVfQ2B6JPBJjCM1F3da4.cache
+
+./tmp/cache/assets/sprockets/v3.0/DJ:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 DJizG4FK_aiSLEEcnUibw4irVbZh0aK17BufdJRVu3o.cache
+
+./tmp/cache/assets/sprockets/v3.0/DS:
+total 8
+-rw-r--r--  1 Kamran  staff   572B Apr 28 19:58 DSOLSc6A5RVSmvM415eEWAWG_AgOvZcLZOXQjsXyWQA.cache
+
+./tmp/cache/assets/sprockets/v3.0/DT:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 DTrCDgZ_gI___fq4GUkat8ZIBv6aJD9GC7wVsFtAFPE.cache
+
+./tmp/cache/assets/sprockets/v3.0/Dg:
+total 8
+-rw-r--r--  1 Kamran  staff   2.0K Apr 30 20:46 Dg5Y1WMlIB8sffIAPtC8qO_0Ndl33pCdxJZSZhVD7Zk.cache
+
+./tmp/cache/assets/sprockets/v3.0/E1:
+total 8
+-rw-r--r--  1 Kamran  staff   3.1K Apr 30 20:46 E1xcV5pHZMpzA57KuMjRTzf49V_E62l36IayojjdXgA.cache
+
+./tmp/cache/assets/sprockets/v3.0/E8:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 E8gOoDdueUPi1QYnUgOzoVcjkbRl8w_lR6U7JE0TXIg.cache
+
+./tmp/cache/assets/sprockets/v3.0/E9:
+total 8
+-rw-r--r--  1 Kamran  staff   2.5K Apr 30 20:46 E9HP1Sz-s6309KWYkXaaubBYq2qnnd-EzzuyefGgVtI.cache
+
+./tmp/cache/assets/sprockets/v3.0/EA:
+total 8
+-rw-r--r--  1 Kamran  staff   861B Apr 30 20:46 EA3J38txVLATHKZxG2ottYV0hbXthMd9RlgYaDNQr18.cache
+
+./tmp/cache/assets/sprockets/v3.0/EB:
+total 8
+-rw-r--r--  1 Kamran  staff   2.8K Apr 28 19:58 EBtbhweQl74JQNkwFL3ahZH_9x44ceqa9hOT8lQ_SfM.cache
+
+./tmp/cache/assets/sprockets/v3.0/EJ:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 EJEWCO03H5-YKNlK1JuwuQWsqKGuklMLootVt1XseMU.cache
+
+./tmp/cache/assets/sprockets/v3.0/EU:
+total 16
+-rw-r--r--  1 Kamran  staff   2.6K Apr 30 18:40 EUCHO36LK-7EC9ScVEMJE_nb2YEtXyUQAzrWUWcJuUc.cache
+-rw-r--r--  1 Kamran  staff   221B Apr 30 18:40 EuUm-Hs3KAg_FxrJBEXm8l4T-IYDyyU8LuEWO_NJ_ys.cache
+
+./tmp/cache/assets/sprockets/v3.0/EV:
+total 8
+-rw-r--r--  1 Kamran  staff   231B Apr 30 20:46 EVM0MSKwdCX3KDWRjQ_LUgdR5C1GGbBA2G4RIA7u7Z4.cache
+
+./tmp/cache/assets/sprockets/v3.0/Ec:
+total 24
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 ECUvEP-Hxuat-byrOrv8IEjaKyLzXo751o6Z6GdO2HI.cache
+-rw-r--r--  1 Kamran  staff   1.9K Apr 30 20:46 EcVFmEujLPjrB_vVtr21-24Qh7Q1TFFkj3-L_7lqi4M.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 Ecg9UWcWBuHnyi_VI6f1qlW_Aa-hQrT32qg_A4RIR68.cache
+
+./tmp/cache/assets/sprockets/v3.0/Ee:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 EeXEckGDSgybOKGHExLYdcPZxtE74RyIbnoR4MoFyTc.cache
+
+./tmp/cache/assets/sprockets/v3.0/Es:
+total 16
+-rw-r--r--  1 Kamran  staff   219B Apr 30 18:40 EshJMwRT8OaEJl7huouzckq7L3HBnaALAYaDhvtZPo8.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 eSDJzHO89fUADt1O5MyZQ5yzd0lRtNMH8lAtHj0SdGE.cache
+
+./tmp/cache/assets/sprockets/v3.0/Ew:
+total 8
+-rw-r--r--  1 Kamran  staff   299B Apr 30 20:23 EwAQY6VmampfyvZ2k030kRh5iDOxVzkULt1_vckAZDs.cache
+
+./tmp/cache/assets/sprockets/v3.0/Ez:
+total 8
+-rw-r--r--  1 Kamran  staff   1.2K Apr 30 18:40 EzmHs6y-RDk2xBX1rys8QLBU-3kv0gDpjot0ynPOE88.cache
+
+./tmp/cache/assets/sprockets/v3.0/F0:
+total 8
+-rw-r--r--  1 Kamran  staff   1.1K Apr 30 18:40 F0elz9nEs5KhnZ_oCYCjNV970TJimg3cYuyNBH14z4Y.cache
+
+./tmp/cache/assets/sprockets/v3.0/F6:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 F67vPF8g9XrUuEoMM3-6sUA1FloK9QoJa4aNp5YSwr8.cache
+
+./tmp/cache/assets/sprockets/v3.0/F8:
+total 8
+-rw-r--r--  1 Kamran  staff   313B Apr 30 20:46 F8qAfXoclj37_heAkcazbUypme8L7Sc_zf-GlSl7HP0.cache
+
+./tmp/cache/assets/sprockets/v3.0/FC:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 FCV7FTDCP2_d_bLK59G9dhpMSRwXT_dMa0nZTAOQcQE.cache
+
+./tmp/cache/assets/sprockets/v3.0/FK:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 FKRFghocIt0eIzSo2PuLslS9tiU0wPCWEOQ15GwngEQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/FP:
+total 8
+-rw-r--r--  1 Kamran  staff   1.1K Apr 28 18:37 FPg7xjqr935pwSOnaUzQLKH7QXquk0KWVxExxYWYbHQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/FY:
+total 16
+-rw-r--r--  1 Kamran  staff   334B Apr 30 20:46 FY60W1gWNPLHHNraYFbX4Q4XC7sQo6xZi-NyvSzECkM.cache
+-rw-r--r--  1 Kamran  staff   143B Apr 30 20:46 fYHy-idlQHWFsbl1DRv6xHDW797V-rN75sP8d0RXGiQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/G3:
+total 32
+-rw-r--r--  1 Kamran  staff   4.8K Apr 28 20:35 G3X7zZeUWbBenv8FKXIh-Q6S-1Ti4Swr78oWFJ_uv9M.cache
+-rw-r--r--  1 Kamran  staff   5.0K Apr 30 20:46 G3duqnhbeVSx5HYMHxdpputqHXSns2oDFEI02AvDS2k.cache
+
+./tmp/cache/assets/sprockets/v3.0/G8:
+total 24
+-rw-r--r--  1 Kamran  staff   8.1K Apr 28 20:35 G8ZMeKxgvqygClJZzYOuo6q-Dt-gKQa4blenjrYYuX4.cache
+
+./tmp/cache/assets/sprockets/v3.0/GV:
+total 8
+-rw-r--r--  1 Kamran  staff   853B Apr 30 20:46 GVhRcGfShe-oCQJGEatvVobpoWONEhJ9sltN5rVgbtk.cache
+
+./tmp/cache/assets/sprockets/v3.0/Gb:
+total 24
+-rw-r--r--  1 Kamran  staff    12K Apr 28 20:35 GbgF4uF2_yIBp2urnOCjPj9bg2d50FUV5clyIaiMWwE.cache
+
+./tmp/cache/assets/sprockets/v3.0/Gs:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 GssHV02d6e7BdO0xDCNBPyyRMmPjbu-RkberbuTUciM.cache
+
+./tmp/cache/assets/sprockets/v3.0/Gu:
+total 24
+-rw-r--r--  1 Kamran  staff   215B Apr 30 18:40 GuwsJKpI0A2zyTcOc56FjSIG2vDWh7t0Jphsw64hILk.cache
+-rw-r--r--  1 Kamran  staff   5.7K Apr 30 20:46 gu5ToHwDnmr5upHVqwHNrZcN4rSBbD_EdfmXdHlqYyw.cache
+
+./tmp/cache/assets/sprockets/v3.0/Gy:
+total 32
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 GyvIa8_E8of1kkh-A5ISZ5Shh5Udoei6p1BEAjZf_9Q.cache
+-rw-r--r--  1 Kamran  staff    10K Apr 30 20:46 gYj-hyoqOhs_H9hnDzftBjJOjTtdWXOEe9YVsB1BVB0.cache
+
+./tmp/cache/assets/sprockets/v3.0/H1:
+total 8
+-rw-r--r--  1 Kamran  staff   303B Apr 30 20:23 H1bjcrlxLB1IS-na-_G2gSiHlGpF1sfzRq9TT3sG0X8.cache
+
+./tmp/cache/assets/sprockets/v3.0/H2:
+total 64
+-rw-r--r--  1 Kamran  staff    32K Apr 28 20:35 H2jlRJ1zhDhEDrcY_zMY1k53zKtHOMt2cgIGBuGFN5Q.cache
+
+./tmp/cache/assets/sprockets/v3.0/H4:
+total 24
+-rw-r--r--  1 Kamran  staff   2.2K Apr 28 20:35 H4eQ5NPcddj3OHTlprQvyId4mFEFvBppLLYoEElgGWk.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 h4kVGm1DkEnZkkyFWbBi3ePa04oFZU23klzDSlwk9gE.cache
+-rw-r--r--  1 Kamran  staff   231B Apr 30 20:46 h4lgU7ZAoTq7GVUP9QtRsQcAKwlw2367_ZGJJKLgDak.cache
+
+./tmp/cache/assets/sprockets/v3.0/HK:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 HKZkOefo3rmB64_0QRLb-mKmNq2lzMU2TeOUfOEvVEU.cache
+
+./tmp/cache/assets/sprockets/v3.0/HM:
+total 24
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 HMTAFjBXcUS_CNgbJojxU11MJuA-9yrErKfqHoeNHgI.cache
+-rw-r--r--  1 Kamran  staff   227B Apr 30 20:46 hmG7dj-gkgZPMwlivrtZJ4zYltc4ZR1SUlhIkIkBIVY.cache
+-rw-r--r--  1 Kamran  staff   235B Apr 30 20:46 hmeYRrVL0MJOoGP6idmsvz2vMFtE-HpUdjc_QNVkZoE.cache
+
+./tmp/cache/assets/sprockets/v3.0/HV:
+total 16
+-rw-r--r--  1 Kamran  staff   2.8K Apr 28 20:35 HVx-T0SwiVP9EzoqiGHGlP5jOPZmVqsERRkM-UX8GeQ.cache
+-rw-r--r--  1 Kamran  staff   156B Apr 30 20:46 HvmN6qJ6Yrd7ENnbTe0ki9X6desO_w1UEltWzbFTrjQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/HY:
+total 24
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 HYeewro5ayvOJgJ41Wz7qts3rqj2mY27GgxdfcmrtpY.cache
+-rw-r--r--  1 Kamran  staff   140B Apr 30 20:46 HYfa28GUwlT2Dctcohg8mn35w_97Qa2kgUv2i6thfS4.cache
+-rw-r--r--  1 Kamran  staff   144B Apr 30 18:40 Hy2GnySFkyIcKm1-mOsOM_ZVHsiezE7fKonTY2eFPak.cache
+
+./tmp/cache/assets/sprockets/v3.0/Hu:
+total 8
+-rw-r--r--  1 Kamran  staff   307B Apr 30 20:23 HuetDGLNIEy7tCtu15IKlACjDFdXcIMHihJtQKDOc4I.cache
+
+./tmp/cache/assets/sprockets/v3.0/I0:
+total 48
+-rw-r--r--  1 Kamran  staff    23K Apr 28 20:35 I0ZQsYpMdjjydqkcXafPG4i46VlSSp2eokS8ttNdXs4.cache
+
+./tmp/cache/assets/sprockets/v3.0/I9:
+total 16
+-rw-r--r--  1 Kamran  staff   1.7K Apr 28 20:35 I9PKqHtNvrE2gJkv1qIsm1AkIpFEA2Xfh6YWS5n3a-4.cache
+-rw-r--r--  1 Kamran  staff   1.7K Apr 30 20:46 i9h0M3ATH2on-IrN3YObUaLWTOsG5lc4PT3SIGXQd1A.cache
+
+./tmp/cache/assets/sprockets/v3.0/IQ:
+total 40
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 IQ57ECGiJ6CvtlXN_UtayLvV8etfqvJgB_xW_bOMYE0.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 IQdiQh77nlyXBrNocqOCV6JI48G_c02tCIgMdjxzYEM.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 IqSaeueO29NwphyZsH45D3d_5gZ5TDELD6KIT_tG8IA.cache
+-rw-r--r--  1 Kamran  staff   1.4K Apr 28 22:19 iQaCBiOXAt29bhy4kMkvEa6xsOggJuFQEH_wem_GsEc.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 iQycxynCqDSEEKUqz1CDmK454FI0JZbkJtXemgZes7Q.cache
+
+./tmp/cache/assets/sprockets/v3.0/IS:
+total 80
+-rw-r--r--  1 Kamran  staff   3.5K Apr 28 20:35 ISV9bGvnsnALMGfFYGl8PVUhoaGxAupSMRRKTXdI1Q0.cache
+-rw-r--r--  1 Kamran  staff    30K Apr 30 18:40 isKQl4kkqaL5Ya3nU3Xv7XbW9-z17JYYJlghopssBgE.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 isSLutdt8Qgzs_lR4mIGRp9qr9lY38bUXNmKJeRRNyU.cache
+
+./tmp/cache/assets/sprockets/v3.0/Id:
+total 8
+-rw-r--r--  1 Kamran  staff   150B Apr 30 18:40 IdgPUhhpgDVELeFc-mXWj8BWSMhp0IH-XTUvrE6iMU4.cache
+
+./tmp/cache/assets/sprockets/v3.0/Il:
+total 8
+-rw-r--r--  1 Kamran  staff   3.5K Apr 28 20:35 IlKuzzm94iMS2ARM7hDGlfpR5zefX8LHIR64DVcKo-I.cache
+
+./tmp/cache/assets/sprockets/v3.0/J0:
+total 16
+-rw-r--r--  1 Kamran  staff   3.1K Apr 28 20:35 J0KrADV-sWDmpMN_e5FWYWq1tMJD6_flW2C8ND1ghzc.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 J0wV2odCD15BxU8OS8VP_aRJ9CSrWv1wrBlksLXgG9I.cache
+
+./tmp/cache/assets/sprockets/v3.0/J1:
+total 16
+-rw-r--r--  1 Kamran  staff   290B Apr 28 20:35 J1w851Zx2eCRH8_QS_7nmljVgI0vhS5Vk4lKBv4fel0.cache
+-rw-r--r--  1 Kamran  staff   1.8K Apr 30 20:46 j1yw-jqnOjfkpy8efLo7oso5QCXeUGlxMyN2JGvKhBs.cache
+
+./tmp/cache/assets/sprockets/v3.0/J9:
+total 16
+-rw-r--r--  1 Kamran  staff   5.2K Apr 28 20:35 J98Q9nolN-KWPIET8jgC1_pjb4A6mthtm1_m8pXUbeA.cache
+
+./tmp/cache/assets/sprockets/v3.0/JO:
+total 48
+-rw-r--r--  1 Kamran  staff    23K Apr 30 20:46 JOtJRJSgwRipSpox4YlvSIBgj55NPZD7r8VlYrFzpDw.cache
+
+./tmp/cache/assets/sprockets/v3.0/JQ:
+total 8
+-rw-r--r--  1 Kamran  staff   219B Apr 30 18:40 JQWJiqWWwLh8unxJKs13OAr58nWD5bT88qh-BeZgmT4.cache
+
+./tmp/cache/assets/sprockets/v3.0/Jf:
+total 232
+-rw-r--r--  1 Kamran  staff   114K Apr 30 18:40 JfElb9_RQvhd7sXzLyHmrOdUwLqp0IOvK5ORA5qcUfE.cache
+
+./tmp/cache/assets/sprockets/v3.0/Jm:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 Jm3M0Oo4xGmyLwHjD6LZHrFYxxQQKoRzn4a9lesIrYw.cache
+
+./tmp/cache/assets/sprockets/v3.0/Jr:
+total 16
+-rw-r--r--  1 Kamran  staff   229B Apr 30 20:46 JRQahPaKRaKQ-6Fip4kyrx2idmtbnGk1DxvAi7NfBh0.cache
+-rw-r--r--  1 Kamran  staff   305B Apr 30 20:23 JrRy0GUinnVIgUsflDpHaHlskLAH93FysvKKXyFvgn8.cache
+
+./tmp/cache/assets/sprockets/v3.0/K3:
+total 8
+-rw-r--r--  1 Kamran  staff   2.1K Apr 28 20:35 K3hclwsADypfVggf8AVhDzvt7cDn7And-NSq0ETcBFs.cache
+
+./tmp/cache/assets/sprockets/v3.0/K8:
+total 8
+-rw-r--r--  1 Kamran  staff   3.2K Apr 30 20:46 K8KF3DymB7vyIKo0wShO9UZ2-TKh6Xt7T10W8YVccP0.cache
+
+./tmp/cache/assets/sprockets/v3.0/KA:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 KAsRkxcyzah4UUoJfCgI18dIRG3tmTIDq6kNjpHLwa0.cache
+-rw-r--r--  1 Kamran  staff   3.5K Apr 30 20:46 kAOcQB34LtV8BVfF_8LkzfMIL9dZyq-kqPZLlVVlB2I.cache
+
+./tmp/cache/assets/sprockets/v3.0/KE:
+total 24
+-rw-r--r--  1 Kamran  staff   9.3K Apr 30 20:46 KE1UHDCDJQsV331V391PNTnrwa2qdjTMC0lugzy9_fg.cache
+
+./tmp/cache/assets/sprockets/v3.0/KN:
+total 16
+-rw-r--r--  1 Kamran  staff   7.3K Apr 30 20:46 KNgHogkVRTGmMw6vLrG3UYmEIK05TAOWUh5_m92tnZ8.cache
+
+./tmp/cache/assets/sprockets/v3.0/Kd:
+total 8
+-rw-r--r--  1 Kamran  staff   1.9K Apr 30 20:46 KdTxu_5OZJoivWidlQQuNfX-PR858LA1eOlHs3yKgE0.cache
+
+./tmp/cache/assets/sprockets/v3.0/L7:
+total 8
+-rw-r--r--  1 Kamran  staff   868B Apr 30 18:40 L7Nl9kjXujacPHU4cMt6w3eX-f4gCBfIDBvbPW_PsFQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/M3:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 M3r225jHda0Mm0TCPML9i9o3KQpoTytVizThcH2QGCU.cache
+
+./tmp/cache/assets/sprockets/v3.0/MG:
+total 24
+-rw-r--r--  1 Kamran  staff   8.5K Apr 30 20:46 MGloEuDbqs8DjsEAjtJD1VBcgbwuiSxtgyXmiW6MisQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/MQ:
+total 16
+-rw-r--r--  1 Kamran  staff   435B Apr 30 20:46 MQvu2WkmK5fiPmiWWh9vFx8c8KO06YdiLMC4NJfnyI4.cache
+-rw-r--r--  1 Kamran  staff   2.6K Apr 30 20:46 MqBpklTeVf2-H1zH7OntTMgGxq5w7NFAZwngA1F2GO0.cache
+
+./tmp/cache/assets/sprockets/v3.0/MV:
+total 16
+-rw-r--r--  1 Kamran  staff   2.2K Apr 30 18:40 MVJ31P7CeABgRIQlaazCBmLzwzO-vFOCWhslJIQd7JA.cache
+-rw-r--r--  1 Kamran  staff   223B Apr 30 18:40 MvXfe4xHPw_xad8u8qdReq4kobHnj8Z2hAONB6bEl7g.cache
+
+./tmp/cache/assets/sprockets/v3.0/Md:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 MdCGKcQwMG8rboSaxqwaOvuBnjOB_NwZS3TJHEwQ0cE.cache
+
+./tmp/cache/assets/sprockets/v3.0/Mh:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 MhfmrY4tN5ovYuVp-njEN_i7_jJSE6L-XyefhWyMzEs.cache
+
+./tmp/cache/assets/sprockets/v3.0/Mn:
+total 8
+-rw-r--r--  1 Kamran  staff   3.1K Apr 30 20:46 MnNFsOf1rX04u7SO8G8HjY1zajsddECC9BLur8C-ep0.cache
+
+./tmp/cache/assets/sprockets/v3.0/Mp:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 MP9nmpvwiCTye6b4I0FmnoJAs0B3DaclMWDze0w0wUw.cache
+-rw-r--r--  1 Kamran  staff   3.1K Apr 28 20:35 MpiMia6I3nyHNraoqelTO_B3y1CYXAaJ3XMGg9ny0kg.cache
+
+./tmp/cache/assets/sprockets/v3.0/Mr:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 Mr_dOm2zqiu6f0eddBkEi1vSterhdG7NSlZm3VIN0Tc.cache
+
+./tmp/cache/assets/sprockets/v3.0/Mt:
+total 8
+-rw-r--r--  1 Kamran  staff   144B Apr 28 18:37 Mtp4jihr_p4IMSnzUvItw3p9NbpWpMzmQXhhZlQyGW0.cache
+
+./tmp/cache/assets/sprockets/v3.0/NP:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 NPlBg85sogt6QP-SPn9kZcnW2dsdR-1jB_WDXYWPaCE.cache
+
+./tmp/cache/assets/sprockets/v3.0/NT:
+total 8
+-rw-r--r--  1 Kamran  staff   304B Apr 30 20:23 NTnfEOVqJctb65KixlIr5eWhC2zWpvrG9YXIWKUFScA.cache
+
+./tmp/cache/assets/sprockets/v3.0/NV:
+total 24
+-rw-r--r--  1 Kamran  staff   156B Apr 30 18:40 NVAqF3ltqpIRX6heHqQ42SRG1nsVq17Aos4xbSkRc9E.cache
+-rw-r--r--  1 Kamran  staff   2.1K Apr 30 20:46 NvF28PxtqgR53rWf256siOHpRSwEtQZsKm3HRYjI2jg.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 nVhmBX_1yLQqbfvtED3DxNjkitpoNf0V7WndXHRNk_0.cache
+
+./tmp/cache/assets/sprockets/v3.0/N_:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 N_gx8UGlnXIU_ggj63p9gyJ-7YklbjzzKNfype0SSdg.cache
+
+./tmp/cache/assets/sprockets/v3.0/Nb:
+total 8
+-rw-r--r--  1 Kamran  staff   1.6K Apr 30 20:46 NbQ-PUJM1oL7xhB0FJbAF8j2YROwZLkTt91RyV9_g1M.cache
+
+./tmp/cache/assets/sprockets/v3.0/Ng:
+total 8
+-rw-r--r--  1 Kamran  staff   2.3K Apr 30 20:46 Ngz4S1e0x7jlNwzpFx0pxy6WQcnrxEty_Dhcwue0B5U.cache
+
+./tmp/cache/assets/sprockets/v3.0/O-:
+total 8
+-rw-r--r--  1 Kamran  staff   230B Apr 28 20:35 O-46BnRaTxtY8wEnRJ1lQjWTHcVSBhxQYPkTQgJaPXc.cache
+
+./tmp/cache/assets/sprockets/v3.0/O6:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 O6wk2j6x1V5pkh75I9rBVGtsyBdsIVKRmRMeCNYCVY8.cache
+
+./tmp/cache/assets/sprockets/v3.0/OD:
+total 8
+-rw-r--r--  1 Kamran  staff   3.5K Apr 30 20:46 ODi_MaeB82ZxaLz1j5zs_BN4WSRTC4bILymqHC6ueqA.cache
+
+./tmp/cache/assets/sprockets/v3.0/OF:
+total 16
+-rw-r--r--  1 Kamran  staff   2.8K Apr 30 20:46 OFm7SqDVTwYksqfKNA2fnhZIZTdcm8RTkykLV_3pziQ.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 ofFld_WXGeRyOEH3pjrJYUar5o5XjHD3PWBgJdMkv80.cache
+
+./tmp/cache/assets/sprockets/v3.0/OI:
+total 16
+-rw-r--r--  1 Kamran  staff   427B Apr 28 19:58 OI6uxGcnsKavdWTtwDAasU3wPx8QXhzBgV0X2n1KjMQ.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 oitiThaELlp7Ljqdmr96-5FuFXcYXS8BvCpIE3UFB4Q.cache
+
+./tmp/cache/assets/sprockets/v3.0/OP:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 OPbXP0_OPM-GBdsG-qSSJ4zZrBJnErz3g-MiEoZlkt4.cache
+
+./tmp/cache/assets/sprockets/v3.0/Oa:
+total 16
+-rw-r--r--  1 Kamran  staff   6.3K Apr 30 20:46 Oa73eVvL7DLtjV4-0zWMwtXZBbUsoUuJTHVOi_a9SRM.cache
+
+./tmp/cache/assets/sprockets/v3.0/Ou:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 OuIm8YPIfVFWOqKoNS0727IYesrSdGLC3bPL71eggZg.cache
+-rw-r--r--  1 Kamran  staff   1.1K Apr 30 20:46 OuruuSwAJVQ5KRpMzVgJ9G79NJctY2qN48zMS7VabD0.cache
+
+./tmp/cache/assets/sprockets/v3.0/P9:
+total 16
+-rw-r--r--  1 Kamran  staff   6.8K Apr 30 20:46 P9PMdV_z7OAjbFeEUpVEAeK_m4Cj6nCy3p5r9AYRdi0.cache
+
+./tmp/cache/assets/sprockets/v3.0/PM:
+total 8
+-rw-r--r--  1 Kamran  staff   1.9K Apr 30 18:40 PMipnI6OF5jtHCCcj23IYbwW82T5Ih4M3z6-DNkYMUY.cache
+
+./tmp/cache/assets/sprockets/v3.0/PQ:
+total 24
+-rw-r--r--  1 Kamran  staff   1.1K Apr 30 20:46 PQMEwoc_zjgsjrNq4FuOClXQFWCLt3CjrOXe9a5Rv-w.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 28 20:35 Pqulx-PiEttWmA5SMU5ihk-S0n7w3CmTDlxSZUwjfHE.cache
+-rw-r--r--  1 Kamran  staff   2.5K Apr 28 20:35 pq50aMRYsbaTLUALLIvym30qG0QRr1ABfkA7ymVI7w0.cache
+
+./tmp/cache/assets/sprockets/v3.0/PX:
+total 8
+-rw-r--r--  1 Kamran  staff   738B Apr 28 22:19 PXCra9RdAzYXN6GrfuGZwZW7jQWYiYN2VTggsjghpiA.cache
+
+./tmp/cache/assets/sprockets/v3.0/QP:
+total 16
+-rw-r--r--  1 Kamran  staff   4.0K Apr 30 20:46 QPXz8N7VTeEpEd0p9flxIjJSVJBSzQykBb7NeA0MjnU.cache
+
+./tmp/cache/assets/sprockets/v3.0/QQ:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 QQKscDV0UCQhzTE7-5FwLyoBnkXRxWIZgU_4csQJ7PY.cache
+
+./tmp/cache/assets/sprockets/v3.0/Qi:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 QiFFiclFRYvN2rIhzw-Au6ObIQFFfwQYXKmTjVqgctk.cache
+
+./tmp/cache/assets/sprockets/v3.0/Qm:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 QmiEO6SDmvPWjE9A2P9R1b7LzWV5eM1bDVTBmA6BktU.cache
+
+./tmp/cache/assets/sprockets/v3.0/Qy:
+total 8
+-rw-r--r--  1 Kamran  staff   3.5K Apr 30 20:46 QyRKJf8lgqIQpSi0lu4H9jDH_NQpMX65RiIcrsBoRB8.cache
+
+./tmp/cache/assets/sprockets/v3.0/R0:
+total 8
+-rw-r--r--  1 Kamran  staff   319B Apr 30 20:46 R0cte1M8TCFT1Kotuq-tiCCBdbVFiUGN8XnuTvZxuFI.cache
+
+./tmp/cache/assets/sprockets/v3.0/RB:
+total 24
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 RB5wBADcMNSu6o-fCmvhjEauXAKArHizNlteTCS_h5Y.cache
+-rw-r--r--  1 Kamran  staff   7.2K Apr 30 20:46 RbDXqY6HR9Es1qFmeM8eNX6auQUKTXh1BkGM-QtoYNA.cache
+
+./tmp/cache/assets/sprockets/v3.0/RH:
+total 8
+-rw-r--r--  1 Kamran  staff   234B Apr 30 20:46 RHl2VlEcqwHnoCatkEQ7hv0bye6d7KIjanwiH9wOHfI.cache
+
+./tmp/cache/assets/sprockets/v3.0/RI:
+total 8
+-rw-r--r--  1 Kamran  staff   2.5K Apr 30 20:46 RIajAXd1jXLkECdmYl4QtL0kyguHTcqRedkF9UD34Rc.cache
+
+./tmp/cache/assets/sprockets/v3.0/RP:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 RPs9nCzF0IyszHlVSdXklM9Ky8bEjKPVPoadeyPy_nE.cache
+
+./tmp/cache/assets/sprockets/v3.0/RZ:
+total 16
+-rw-r--r--  1 Kamran  staff   5.0K Apr 30 20:46 RZS14d54dMG6LJ4nLZZCeYpaRr68cOt-mmottm6c_f4.cache
+
+./tmp/cache/assets/sprockets/v3.0/SG:
+total 8
+-rw-r--r--  1 Kamran  staff   1.4K Apr 30 20:46 SG63-AZkTJ6CmF7adxEL-2qG5CeoXouCZRESbl8qnzI.cache
+
+./tmp/cache/assets/sprockets/v3.0/SM:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 SMx9w2u41Pvhj08zGqPiaOb9pH7gS-5xsEeUbGOlqFk.cache
+
+./tmp/cache/assets/sprockets/v3.0/SV:
+total 8
+-rw-r--r--  1 Kamran  staff   2.3K Apr 30 20:46 SVOo_ZB-H_g0q1KT-j-qUOLufkvPGgSIMkQlibDutoc.cache
+
+./tmp/cache/assets/sprockets/v3.0/SZ:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 SZspFB7FZFPxguoSJO9sNJuTY_9BkOVfA0kywrs1koA.cache
+
+./tmp/cache/assets/sprockets/v3.0/Sa:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 SaMQvAVlQVoxEv34Sa8GL15QAsZFGU_w64cXX5AGnug.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 sA2O3r5vb76LKp_tPirbSzpd55sw95K0_UNPUsxjpPo.cache
+
+./tmp/cache/assets/sprockets/v3.0/T7:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 T7Cm7H3HIOgUA5K7LrNTsP9EXLjcD15xSXrbJ2WYaXE.cache
+
+./tmp/cache/assets/sprockets/v3.0/TC:
+total 16
+-rw-r--r--  1 Kamran  staff   130B Apr 28 18:37 TC82CnRpHQl3NSm0BYTF4-7l2gdxuyui6Q8E5phgM6w.cache
+-rw-r--r--  1 Kamran  staff   2.0K Apr 28 18:37 TCCnmt_7PZ5mEIaePaC5s6sBCKQjtqMV2u1WgK8WvrU.cache
+
+./tmp/cache/assets/sprockets/v3.0/TD:
+total 24
+-rw-r--r--  1 Kamran  staff    12K Apr 30 20:46 TDLnjlWDKRTmx_qKxMas6DvK3KPQR0tRuWxEQaS8AU4.cache
+
+./tmp/cache/assets/sprockets/v3.0/TN:
+total 16
+-rw-r--r--  1 Kamran  staff   4.2K Apr 28 20:35 TNEPiGVdfXi5dTKBtdv0Nd-4dCIHUsx2gMdP8VxHChM.cache
+
+./tmp/cache/assets/sprockets/v3.0/Th:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 Thn_PKkP5FI66z-NdigmltYEY0uuJ3G4nesUTuvM-tM.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 tHuGIeVXGeSaotehoKRI816ro7qKaEQ2-qbcta491Ms.cache
+
+./tmp/cache/assets/sprockets/v3.0/Tp:
+total 72
+-rw-r--r--  1 Kamran  staff    30K Apr 30 18:40 TP8mc6UuSRkVO4X3vYYG9MKTo74_hDtcShVeR-yjLeA.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 TpXQp6RmPZNz1-CdBCLdqsIIn3IBPRxjuhmzg9tdFq8.cache
+
+./tmp/cache/assets/sprockets/v3.0/Tr:
+total 16
+-rw-r--r--  1 Kamran  staff   6.8K Apr 28 20:35 TrkBXjpSAmFf_4PGk-CAUQ-KeyIYEAPk1uBZ6o3P-Tw.cache
+
+./tmp/cache/assets/sprockets/v3.0/Ts:
+total 8
+-rw-r--r--  1 Kamran  staff   250B Apr 28 20:35 TsMDdrBpbggwCY5iCdK0dQRE0CBATLhyVt3by2DRkQI.cache
+
+./tmp/cache/assets/sprockets/v3.0/U-:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 U-hcwUu-i-KePcncYXtHT2TKNQ520oWzNhR7Yg59QuA.cache
+
+./tmp/cache/assets/sprockets/v3.0/UG:
+total 16
+-rw-r--r--  1 Kamran  staff   151B Apr 30 18:40 UGFi-ir9yE208QfaPGdl1kflKg3l7kLnyOXNgUOHNVs.cache
+-rw-r--r--  1 Kamran  staff   318B Apr 30 20:46 uGHBuezKgPjis_NLfwP7OOFEA_Jsw415o20-YkJtlls.cache
+
+./tmp/cache/assets/sprockets/v3.0/UJ:
+total 32
+-rw-r--r--  1 Kamran  staff   1.2K Apr 30 20:46 UJD2pR0bzspIGpgD_MpxubIpCo3lJnF6D7FOcjE4NSU.cache
+-rw-r--r--  1 Kamran  staff   2.2K Apr 28 20:35 UJXPUgvZIO7eH5s19p6Cc5aLC405ib_8nhNkIkBs9W8.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 uJJfF_mIhc7q-SZ1xDCRCsMlrbWghGsL3h8CJVDm-yE.cache
+-rw-r--r--  1 Kamran  staff   156B Apr 30 20:46 ujwCyQdjmN0G4B1ckzIqsHHZqiqCPW7WrysVucbJZb0.cache
+
+./tmp/cache/assets/sprockets/v3.0/Ue:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 UeHbgHGnCu3VTL7XmI0nVZmTdWy4EpUPz8veyR5pTrA.cache
+
+./tmp/cache/assets/sprockets/v3.0/Uh:
+total 8
+-rw-r--r--  1 Kamran  staff   3.2K Apr 30 20:46 UhntuF3hOf7yzI8qgzCypCN7QvqGYcdzbjhI7rnB4ho.cache
+
+./tmp/cache/assets/sprockets/v3.0/Um:
+total 8
+-rw-r--r--  1 Kamran  staff   156B Apr 30 18:40 UmVqpF0UWdFySky4M7vq3kRVvAX4IyPiVk6cR0h8hP4.cache
+
+./tmp/cache/assets/sprockets/v3.0/V5:
+total 32
+-rw-r--r--  1 Kamran  staff   9.4K Apr 28 20:35 V5Rnb6l8ac6vhfTlnCx1ce-LB_zq5ipgPP2lQ6g7Ev8.cache
+-rw-r--r--  1 Kamran  staff   2.4K Apr 30 20:46 v5c--zknHysTGH0LJcg1_HKdMofGfuem84zfuBs3YzI.cache
+
+./tmp/cache/assets/sprockets/v3.0/V7:
+total 24
+-rw-r--r--  1 Kamran  staff    11K Apr 28 20:35 V7iBVTOLMzAPBYfGlG4x1EnSG65gmvth7-dmUNdpCmM.cache
+
+./tmp/cache/assets/sprockets/v3.0/VM:
+total 8
+-rw-r--r--  1 Kamran  staff   2.0K Apr 28 20:35 VMs4-uctBTTwbXKn9eq_SDtiCpysCqg2h2vUtSm8jNU.cache
+
+./tmp/cache/assets/sprockets/v3.0/Vi:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 VIN4eS8nf8t9kHeZFs2M8uxfyKALPousyNPUGGgo-JY.cache
+-rw-r--r--  1 Kamran  staff   1.8K Apr 28 20:35 Vi0ISX2hZpXetIMxzEZOZ6PBDg59A2JmRywMAOnekKs.cache
+
+./tmp/cache/assets/sprockets/v3.0/Vj:
+total 64
+-rw-r--r--  1 Kamran  staff    31K Apr 30 20:46 VjJHL0l0zQfe6qBwfWALzaBjPd3JlAXQNIxs0b0KANY.cache
+
+./tmp/cache/assets/sprockets/v3.0/Vv:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 28 18:37 Vvm1JM4B9wM_gY9cVYiTK9oZoGgwqdoZhiAIXcdCHH0.cache
+-rw-r--r--  1 Kamran  staff   2.1K Apr 30 20:46 vVdu1A4Ct7rLvq80UYEo0EFlPCWROnQDEIjinlrl58Q.cache
+
+./tmp/cache/assets/sprockets/v3.0/Vx:
+total 8
+-rw-r--r--  1 Kamran  staff   223B Apr 30 18:40 Vx4MgJG29aI8a-To_iJA5iRL72RAwHVHWxB_nvmOovg.cache
+
+./tmp/cache/assets/sprockets/v3.0/W1:
+total 8
+-rw-r--r--  1 Kamran  staff   1.5K Apr 28 20:35 W1POC_Jry0gJsfkG66RFvpJ3kvqvKI6M07RMc1AP6aU.cache
+
+./tmp/cache/assets/sprockets/v3.0/W8:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 W8ZDDgYuC8ZTEwRdUIs4MhAjzrEULP2xofKn7UxxtqY.cache
+
+./tmp/cache/assets/sprockets/v3.0/WM:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 WMZDwnaBD7VhrTbD7_GY1w0reRUXy3FLoVbkru-i3GA.cache
+
+./tmp/cache/assets/sprockets/v3.0/WN:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 WNX0zbQq9vB3sTJpa9L2RxKK1--oxKOtgN5Az4chkpU.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 wn6yBGf4MQpflOyzo2XnLgP1RL6_G8X_1zNN04Mm-gQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/WY:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 WYrmGUgzmINeHWOTStoyB6J73DdbJvyUhjvgL8hAbkw.cache
+-rw-r--r--  1 Kamran  staff   235B Apr 30 20:46 wYWIId-L0J8_pxJYnWarkw_QC1mmnHgLl_0ZOdNB0ng.cache
+
+./tmp/cache/assets/sprockets/v3.0/Wg:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 Wg9PGbdqun8gKu9D69yufcFHY1REmEjA106X-3r_nZE.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 wGcLqHbdTpryhHvKEhIn9Ho9jFBTCTVjJosqbE4SVQ4.cache
+
+./tmp/cache/assets/sprockets/v3.0/Wj:
+total 48
+-rw-r--r--  1 Kamran  staff    21K Apr 28 20:35 WjEhWjXdA-BvO9KyEZl2Xp35KgQbdwIMJPR6TOgIDNk.cache
+
+./tmp/cache/assets/sprockets/v3.0/Wu:
+total 24
+-rw-r--r--  1 Kamran  staff   6.3K Apr 28 20:35 WuajahaLVkiPfZTW14b3QXcsBfTjqlkavlhm1RL6U5w.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 wumSMJS0L5e2qfmdCFeFd2-ryNhmaHSbEAw4YAXJXl0.cache
+
+./tmp/cache/assets/sprockets/v3.0/X5:
+total 8
+-rw-r--r--  1 Kamran  staff   2.9K Apr 30 20:46 X5ye70hUG2U6wYZnEsSsPZDVn9o3sKA8U0L1Tmsb4tg.cache
+
+./tmp/cache/assets/sprockets/v3.0/XE:
+total 24
+-rw-r--r--  1 Kamran  staff   9.7K Apr 30 20:46 XEvm-UJ1uqYGnEmLBqppA3W1rzbaFynfi8B5lt3fG2U.cache
+
+./tmp/cache/assets/sprockets/v3.0/XQ:
+total 16
+-rw-r--r--  1 Kamran  staff   224B Apr 30 18:40 XQc74_0F7iKqJS_OvM4iInbn5tAcyJnuRFKF8433ES8.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 Xqg6QdAQLnmgn3AwYRzLyWd9gRLuFv_JvUaUBIESsOk.cache
+
+./tmp/cache/assets/sprockets/v3.0/Xl:
+total 8
+-rw-r--r--  1 Kamran  staff   316B Apr 30 20:46 XlJpVSxesCFzJdH9iNg9n6p1MYAWoND6BaIWazvZtzc.cache
+
+./tmp/cache/assets/sprockets/v3.0/Xu:
+total 8
+-rw-r--r--  1 Kamran  staff   143B Apr 30 18:40 Xu_-8ySGj_06-9dh4iJeCEhG0Fbjo4-y61XrSJybafw.cache
+
+./tmp/cache/assets/sprockets/v3.0/Y7:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 Y70H2PJP7FLZemZ2T5bH456rPPN2Lhec8eEo5W_IL1A.cache
+
+./tmp/cache/assets/sprockets/v3.0/YA:
+total 8
+-rw-r--r--  1 Kamran  staff   319B Apr 30 20:46 YAwDEPHxJ_PMuHLwYOIxXJtWMoqmO_xTvxWq4JP6uVg.cache
+
+./tmp/cache/assets/sprockets/v3.0/YD:
+total 8
+-rw-r--r--  1 Kamran  staff   2.3K Apr 28 20:35 YDAzYNGaQJy8IFb8y1RAtAIMHhrixl62yjHdSvKq5qk.cache
+
+./tmp/cache/assets/sprockets/v3.0/YM:
+total 8
+-rw-r--r--  1 Kamran  staff   3.9K Apr 28 22:19 YM978kZocnq-CnqC649XZXkPryZIwesGUuam_04WUP8.cache
+
+./tmp/cache/assets/sprockets/v3.0/Yc:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 YcJ3cr-r75FVovWGojBTuHGIxWWbxE1NMMgsXdj86Uc.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 YcUHI9OjP0yVXqyZo8mHflyymBsJsmHz-woo0-37bQo.cache
+
+./tmp/cache/assets/sprockets/v3.0/Yn:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 Yn0ESXNz4QO5E41VOUHA3mlKe5IHzNatO_4aX6lrJ0Q.cache
+
+./tmp/cache/assets/sprockets/v3.0/Z7:
+total 8
+-rw-r--r--  1 Kamran  staff   3.5K Apr 30 20:46 Z7azkh3aYbTDK2WeFyVy-r1OhuW_gBfLzUNDfQUwv3U.cache
+
+./tmp/cache/assets/sprockets/v3.0/Z9:
+total 8
+-rw-r--r--  1 Kamran  staff   2.2K Apr 28 20:35 Z9bGau5hwimkBEUGvN_9BBlRenu-hVcSmb1h4KfRSSA.cache
+
+./tmp/cache/assets/sprockets/v3.0/ZU:
+total 16
+-rw-r--r--  1 Kamran  staff   2.2K Apr 30 20:46 ZUpRnb3q_qMCsCw-NVe_sbE1uBm-cvc48KfFHz1soQI.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 zUOSHLy_gbGB5jZ5jTbvbaHWVDD183LpdLECGu6MZiw.cache
+
+./tmp/cache/assets/sprockets/v3.0/Za:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 ZauPlssdWP7mpEzOppNTHcWEB3EZiN9KujKEb2niSHU.cache
+
+./tmp/cache/assets/sprockets/v3.0/Zb:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 ZbfIcMYBHfcVXb9cl8K5xi0NrQGMW-q-Nu4_ROrnTnk.cache
+
+./tmp/cache/assets/sprockets/v3.0/Zj:
+total 32
+-rw-r--r--  1 Kamran  staff   234B Apr 30 20:46 ZJ2ueJjdgA7Ik9MSsjZwT0k3I9zDc1wlGxb-jMnRp34.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 ZjDJe0EO8eFqB3J2ht4MZG_s_8Izd8IxVzTH8u3Ocww.cache
+-rw-r--r--  1 Kamran  staff   233B Apr 30 20:46 zJh85rVsTDXOM0LxrOg-yGX7u3uT7qmZBDKFzCgGoJE.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 zjQ1h8kGN_OZvaGl2LOCgSz7Zesv7ly20D5OIFT5QTk.cache
+
+./tmp/cache/assets/sprockets/v3.0/Zq:
+total 8
+-rw-r--r--  1 Kamran  staff   319B Apr 30 20:46 ZqU3TenXa9JiGBRe9bfsi9VSWlWmdf41cm750Oab0Y4.cache
+
+./tmp/cache/assets/sprockets/v3.0/Zv:
+total 24
+-rw-r--r--  1 Kamran  staff   214B Apr 28 20:35 Zv1D2DONsrOIevxWbqMQSh0SMq1BwyM0fAw5OmhZSlQ.cache
+-rw-r--r--  1 Kamran  staff    41B Apr 30 20:46 ZvCEW2ZyS-k4cHH7Gd8P2nKFE9Uh1VOrfR-1PYY2yz8.cache
+-rw-r--r--  1 Kamran  staff   2.6K Apr 30 20:46 ZvZVH6cY4mnye4p0w8UdmYm-zOTJVNwVAC79J6NAqG8.cache
+
+./tmp/cache/assets/sprockets/v3.0/Zz:
+total 16
+-rw-r--r--  1 Kamran  staff   1.8K Apr 30 20:46 Zza9744HpwRa8iM7eCaI1yzfLbZ7gKvAIe6ZLwTVJwQ.cache
+-rw-r--r--  1 Kamran  staff   136B Apr 30 20:46 zzYkhrNGru6YIYr7arhYsPsiYjtRwQGik130FhLUlII.cache
+
+./tmp/cache/assets/sprockets/v3.0/_E:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 _EXbbxqY7XocLMp7fsXQrjgKUHQfXCxNgznb-LN6pLE.cache
+
+./tmp/cache/assets/sprockets/v3.0/_H:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 _HkFSp2YLpxqa47ao4jLdE7KgOd8b-VJiyZDzcyAO9U.cache
+
+./tmp/cache/assets/sprockets/v3.0/_K:
+total 24
+-rw-r--r--  1 Kamran  staff   7.3K Apr 28 20:35 _K3r61SAnwCAsfE_cFbCTy-qzR4a8VdAhVL43c_n1aA.cache
+-rw-r--r--  1 Kamran  staff   233B Apr 30 20:46 _kTMGpbL4AHNqtwDT1dKvY4U7ln2t1qQFsK9IZo9cfo.cache
+
+./tmp/cache/assets/sprockets/v3.0/_N:
+total 8
+-rw-r--r--  1 Kamran  staff   301B Apr 30 20:23 _Nl2xVmAhYQyXodSaYtD1G8nN7TN8lbqphOMaewaeto.cache
+
+./tmp/cache/assets/sprockets/v3.0/_W:
+total 8
+-rw-r--r--  1 Kamran  staff   3.4K Apr 28 20:35 _W3s6fjfTJghFCtaMobq42k6iToRRpLDCS0yUj9HRCk.cache
+
+./tmp/cache/assets/sprockets/v3.0/_a:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 _a4_kDMoBV8iqxRYoVVvILKxVu_9TjWDyixWvfWdTrg.cache
+
+./tmp/cache/assets/sprockets/v3.0/_l:
+total 16
+-rw-r--r--  1 Kamran  staff   5.8K Apr 30 20:46 _lzjzu2rZVD6zY3sVJIMb4OXomOVWopDceodrMftIVs.cache
+
+./tmp/cache/assets/sprockets/v3.0/aD:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 aDlVZ9yanmoh4bgHtyvtJbXgAUN6-N8psbUEIe9STZE.cache
+
+./tmp/cache/assets/sprockets/v3.0/aF:
+total 8
+-rw-r--r--  1 Kamran  staff   231B Apr 30 20:46 aFfa7JXVcTcrQsSuwrpx4tRXno7kVfguDEroYZqgmc0.cache
+
+./tmp/cache/assets/sprockets/v3.0/aO:
+total 24
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 AOubzVCJN9-VGxAo6INobb6LjuN0ucr0NIfr2I0FPvU.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 AocEeLQmdjnqZ16sqvhOhrY-N7hM8TF7RW0wlvOsG7M.cache
+-rw-r--r--  1 Kamran  staff   2.7K Apr 28 20:35 aONmNCk6O2AXT6YUlQnkBkYbs8xh5qfYKDdRotBUCoQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/aY:
+total 8
+-rw-r--r--  1 Kamran  staff   3.1K Apr 30 20:46 aYCeRiEZOEeufIB2JOAehSQr00mQ5bZLnwUVY7XYP9Y.cache
+
+./tmp/cache/assets/sprockets/v3.0/ae:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 28 22:19 aeXb8gLA3yLUcb1aQyv8RNxCzNG-2BUzxo7GxEZbkFU.cache
+
+./tmp/cache/assets/sprockets/v3.0/b1:
+total 8
+-rw-r--r--  1 Kamran  staff   853B Apr 30 20:46 b1Kh5kzYwTqqc6FnPmta-mO6R6J1XUtkeXuCRc6Zwak.cache
+
+./tmp/cache/assets/sprockets/v3.0/b6:
+total 8
+-rw-r--r--  1 Kamran  staff   159B Apr 28 22:19 b6qzoJUsWVVZiq73o6s1L-z0EMWUk50-KkhAnjuDiTw.cache
+
+./tmp/cache/assets/sprockets/v3.0/b9:
+total 8
+-rw-r--r--  1 Kamran  staff   1.7K Apr 28 20:35 b9cDB7tUa2ZFvxjseeN2xUF_F9F1usSRUqSIu43Zmxg.cache
+
+./tmp/cache/assets/sprockets/v3.0/bA:
+total 56
+-rw-r--r--  1 Kamran  staff   222B Apr 30 18:40 bAmDczGtu47sVBC1L8i1mFjbH7zIU2ln21r3l8kvSiU.cache
+-rw-r--r--  1 Kamran  staff    22K Apr 30 20:46 badYh_FWpkHXQbaBS9GKauWs5-q7HEOWOJQNIXJ0058.cache
+
+./tmp/cache/assets/sprockets/v3.0/bO:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 BODeYShhRU1vbrqPy9izRFbtUh1DNGovRgIai-vgklE.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 bOZr-5YoQypE6CAHlqHkloQXijf1Dsd0cMYxMLD6t5c.cache
+
+./tmp/cache/assets/sprockets/v3.0/bV:
+total 16
+-rw-r--r--  1 Kamran  staff   5.3K Apr 30 20:46 bVsrJdTrmu57bTm2ETOpH2WzXFtnM-YLuu8nxI7S334.cache
+
+./tmp/cache/assets/sprockets/v3.0/c8:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 c8MxSMp_m7FGa78SYSr6c_od47Ekxq_A0LEBU3wQH88.cache
+
+./tmp/cache/assets/sprockets/v3.0/cB:
+total 8
+-rw-r--r--  1 Kamran  staff   303B Apr 30 20:23 cB8E65TJzVN2xaD9NPxESOIjdiI_ygxsIu16Lmzrvos.cache
+
+./tmp/cache/assets/sprockets/v3.0/cF:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 cFYGbCXO9u2ThQO1DdlD0KfQSNO-QP_xo_fSPGVUeKU.cache
+
+./tmp/cache/assets/sprockets/v3.0/cI:
+total 8
+-rw-r--r--  1 Kamran  staff   303B Apr 30 20:23 cIS0Idj0I89T96pio0aQ_-Jr1iItfTmthvDKxA8Vcu0.cache
+
+./tmp/cache/assets/sprockets/v3.0/cR:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 cRdCVFs_xyT3v746i-6SeHYEgncFkOMyBUaAdiaQi8I.cache
+
+./tmp/cache/assets/sprockets/v3.0/cV:
+total 8
+-rw-r--r--  1 Kamran  staff   505B Apr 30 20:46 cV-I4dfPPbVw1b3TdqdnDbyG2EqOV5YGVeGrrbDmVyc.cache
+
+./tmp/cache/assets/sprockets/v3.0/cX:
+total 16
+-rw-r--r--  1 Kamran  staff   2.4K Apr 28 20:35 cXbrj57q5bfz5QpwfAzuPX0GW8kkM7oQ3arkFAI7RGs.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 cxqAk-VIK5r7pVdkt8rWSGNCgoRNdDWEB_cBAB7JNRg.cache
+
+./tmp/cache/assets/sprockets/v3.0/cd:
+total 8
+-rw-r--r--  1 Kamran  staff   2.6K Apr 28 20:35 cd_uCI0v4mxfdpGBLTG2A3aiYgQgynnooOC2iX60Sko.cache
+
+./tmp/cache/assets/sprockets/v3.0/d1:
+total 8
+-rw-r--r--  1 Kamran  staff   146B Apr 28 18:37 d1hDDH-URV9wJJqtxYu_WEm_s-IHWP733HfUw9Rdvvs.cache
+
+./tmp/cache/assets/sprockets/v3.0/d2:
+total 24
+-rw-r--r--  1 Kamran  staff   8.1K Apr 30 20:46 d2L991gF64U4jUvZ3CuZu_eN9d-Mgo8E6x797aj8Bxo.cache
+
+./tmp/cache/assets/sprockets/v3.0/dB:
+total 232
+-rw-r--r--  1 Kamran  staff   114K Apr 28 22:19 dB3C_dPuH1-hbWTFAIts1DaQE3fnC3C-wJxT3fOc2nw.cache
+
+./tmp/cache/assets/sprockets/v3.0/dK:
+total 8
+-rw-r--r--  1 Kamran  staff   3.4K Apr 28 20:35 dKALxry8Ozw4OiZMMZuhOKkyT0alHVB-GJjaMsrFhjA.cache
+
+./tmp/cache/assets/sprockets/v3.0/dL:
+total 8
+-rw-r--r--  1 Kamran  staff   159B Apr 28 18:37 dLDZes3eizVuP9r5eS1U6UNiEdO4A2Zg_SK3KKbAeXE.cache
+
+./tmp/cache/assets/sprockets/v3.0/dN:
+total 8
+-rw-r--r--  1 Kamran  staff   1.6K Apr 28 20:35 dNDAnavIaoqWLLL6xmHpiEnrmcv3qCFXpzh9TeOifsw.cache
+
+./tmp/cache/assets/sprockets/v3.0/dO:
+total 16
+-rw-r--r--  1 Kamran  staff   4.2K Apr 30 20:46 dOe-9haScY8jF48MhZ6Wiobj5_ehwzhAtNW0b5MO7oQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/da:
+total 8
+-rw-r--r--  1 Kamran  staff   158B Apr 30 20:46 daET0QCzkeKpR7glxBR3IWtU8aq2zECS2bd5eesydEs.cache
+
+./tmp/cache/assets/sprockets/v3.0/dd:
+total 8
+-rw-r--r--  1 Kamran  staff   3.4K Apr 30 20:46 ddvE8Q1MG1lCSeDuEF7sfI9sUurDZn0OPES-KixC3Bg.cache
+
+./tmp/cache/assets/sprockets/v3.0/dq:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 dqcVeuKS5Uhfu-4Du3slML3k2JvJewSpzPKAjmvnoxQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/e-:
+total 8
+-rw-r--r--  1 Kamran  staff   1.1K Apr 30 18:40 e-KM0VL3hRHRQK4O6Cdq9scYZGv7QQ0QzSMIWUYF108.cache
+
+./tmp/cache/assets/sprockets/v3.0/eN:
+total 8
+-rw-r--r--  1 Kamran  staff   2.0K Apr 30 20:46 eND9bQ0O3CqsLLwSeduz3uanjVRmw3VTSDTac2actuU.cache
+
+./tmp/cache/assets/sprockets/v3.0/eQ:
+total 16
+-rw-r--r--  1 Kamran  staff   2.6K Apr 30 20:46 EQgNHfaf4hJKJA4GCeknfaHx9P4RNQb3jl8SMbovWX0.cache
+-rw-r--r--  1 Kamran  staff   305B Apr 30 20:23 eQeBlaA87nQ_xEL7dHNy-858njS2EhEYNM34orfuE2I.cache
+
+./tmp/cache/assets/sprockets/v3.0/ef:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 efpY95z7T3p1Qkc0jp7dwKonSZcLFh2JDsGAkGSXHQQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/ek:
+total 8
+-rw-r--r--  1 Kamran  staff   3.4K Apr 30 18:40 eknKVtbaFILfEoMES_znO4lw8I1Whb11C_Enjt-hdag.cache
+
+./tmp/cache/assets/sprockets/v3.0/eo:
+total 16
+-rw-r--r--  1 Kamran  staff   2.3K Apr 28 20:35 eo-dNifhDgstBrB13YBmyQRkxjrJO2gPY-jXa_LiC0Q.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 eoGiTDJjtCUthsg6qn5t-4jofE52nAUHJlAFKuK0aX8.cache
+
+./tmp/cache/assets/sprockets/v3.0/fF:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 fFHm5rnJJvC7LePqQ-ua3GEkxh7N00xKjObig-F_ACw.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 fFYhJZekAzT8iPlCgLqXgWkabQsLTAkEQn9b-B1xz80.cache
+
+./tmp/cache/assets/sprockets/v3.0/fO:
+total 24
+-rw-r--r--  1 Kamran  staff   8.5K Apr 30 18:40 fObUwUW7RF9hp9fWkx2j4Yf8q4REsm3pY0u7Ptq1FmM.cache
+
+./tmp/cache/assets/sprockets/v3.0/fQ:
+total 8
+-rw-r--r--  1 Kamran  staff   305B Apr 30 20:23 fQKtk2hj1PZAuOZbgMvO0XrnnkN6_jLJ9xxGkIiKLuM.cache
+
+./tmp/cache/assets/sprockets/v3.0/fX:
+total 8
+-rw-r--r--  1 Kamran  staff   2.3K Apr 30 20:46 fX0OMc96sdhhVv8yMRhIuUxqwP6Ez3R2yjLyopOmpOo.cache
+
+./tmp/cache/assets/sprockets/v3.0/fZ:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 fZsqDz-pZEdap7PidS6jrb2nkrnnNvqoEMO2kLQ4J9I.cache
+
+./tmp/cache/assets/sprockets/v3.0/fa:
+total 176
+-rw-r--r--  1 Kamran  staff    86K Apr 30 18:40 faDlvj3OUJfub5fCvdnqqB7s2w1xJcuW22zV5PKgEY8.cache
+
+./tmp/cache/assets/sprockets/v3.0/fe:
+total 16
+-rw-r--r--  1 Kamran  staff   1.0K Apr 30 20:46 fEeS8kX3T2ne7DjGl6M6ryBvwYg6Sosod6tfo_XqckE.cache
+-rw-r--r--  1 Kamran  staff   853B Apr 30 18:40 feBsSzdfACRgz8q4HwkoiUpxPTrh42MEojfnFXfnyDE.cache
+
+./tmp/cache/assets/sprockets/v3.0/fi:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 fiLrnWLF73eQzzisdkxpTj3F38rJWbnh-KiRMRItcz4.cache
+
+./tmp/cache/assets/sprockets/v3.0/fu:
+total 8
+-rw-r--r--  1 Kamran  staff   316B Apr 30 20:46 fuCsbcJTBTRPHqeMv3rBQXEFyes4vE9Kb9Hu9pPCitA.cache
+
+./tmp/cache/assets/sprockets/v3.0/g2:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 g2Frvv6bibqITIU8hrKgU1iMgR5vgs4C_ORZEf9IIHE.cache
+
+./tmp/cache/assets/sprockets/v3.0/g9:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 g9O1wBEdYD9gKLlw6wYcg5PO7HQ-ONNWFqoVq6_Zf_k.cache
+
+./tmp/cache/assets/sprockets/v3.0/gF:
+total 48
+-rw-r--r--  1 Kamran  staff    21K Apr 30 20:46 gF2UPDYb5COKuka_ynKxfnUzSydOVerwTYjxCPGy6SQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/gG:
+total 8
+-rw-r--r--  1 Kamran  staff   3.2K Apr 30 18:40 gGtLQVJT9SiXsI_SkDF_KK0iQeHYQN-ADgDhxV4bQyI.cache
+
+./tmp/cache/assets/sprockets/v3.0/gZ:
+total 8
+-rw-r--r--  1 Kamran  staff   2.2K Apr 28 20:35 gZAXz4vuSXedbAhurN8gz4riDRLNwO6p8_CAqpJPZBE.cache
+
+./tmp/cache/assets/sprockets/v3.0/g_:
+total 16
+-rw-r--r--  1 Kamran  staff   6.1K Apr 30 20:46 g_JaxuQU8pZOf-ZyBFB8htAkSRBQ3Jy0OJnxGujxALw.cache
+
+./tmp/cache/assets/sprockets/v3.0/gi:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 gibAfUu-_vvoA3aCw0fE97IQi_JdjHD2ArVwN5ShDIs.cache
+
+./tmp/cache/assets/sprockets/v3.0/gn:
+total 8
+-rw-r--r--  1 Kamran  staff   320B Apr 30 20:46 gnwB6YxzJ0Tqe8oylHqGaO8Km20iextQ5tm918obtrU.cache
+
+./tmp/cache/assets/sprockets/v3.0/gq:
+total 16
+-rw-r--r--  1 Kamran  staff   947B Apr 30 20:46 Gqq_BODvTIDDGAXpl9WpyJzMrlUw7AC05afdqzED6CI.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 gq1jUcmzLA9rLQuAbnqLxGlR9LbHoQhHoiI_yWIr5fk.cache
+
+./tmp/cache/assets/sprockets/v3.0/gt:
+total 8
+-rw-r--r--  1 Kamran  staff   1.2K Apr 30 18:40 gtIshE2yX0wCMEX9iQKz5ouq14h8_5VxHxR3guewH5o.cache
+
+./tmp/cache/assets/sprockets/v3.0/h8:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 h8fxryTtfhRLywPtRVqQlcie57wp2y-gFg6Rfs0BleU.cache
+
+./tmp/cache/assets/sprockets/v3.0/hB:
+total 16
+-rw-r--r--  1 Kamran  staff   3.4K Apr 30 20:46 hBsgmtGuZZyTR_xRwDKaZXA_GU4Nsw3IwNljSL6cdQg.cache
+-rw-r--r--  1 Kamran  staff   316B Apr 30 20:46 hbKqBV916nY6NegqwSO4yqQvSahwZpTa5KJSPP9BM68.cache
+
+./tmp/cache/assets/sprockets/v3.0/hD:
+total 8
+-rw-r--r--  1 Kamran  staff   2.4K Apr 28 18:37 hDT_Y4PPGlZ8OgdIvaCxzdBhghFE0TAY6Ps78aDlszw.cache
+
+./tmp/cache/assets/sprockets/v3.0/hG:
+total 16
+-rw-r--r--  1 Kamran  staff   5.0K Apr 30 18:40 hG9lSOz796s0PZm3OFKr0NyD7X5LxcShO7_4-4lJBNs.cache
+
+./tmp/cache/assets/sprockets/v3.0/hj:
+total 8
+-rw-r--r--  1 Kamran  staff   317B Apr 30 20:46 hjisTmkgFv2uFXu6txOvnLzkgo45yfSIzzPHu8pmeWg.cache
+
+./tmp/cache/assets/sprockets/v3.0/hz:
+total 16
+-rw-r--r--  1 Kamran  staff   6.9K Apr 30 20:46 hzrO_IfxV4VKOwbtx3K03yMYZGD0PsqhGt3ksM7_k_o.cache
+
+./tmp/cache/assets/sprockets/v3.0/i3:
+total 8
+-rw-r--r--  1 Kamran  staff   2.1K Apr 28 20:35 i3dGPfCtpVvsdsW8-PVOflHWQ9x6FEeJ__hUZXOd0lg.cache
+
+./tmp/cache/assets/sprockets/v3.0/i6:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 i6db-jWhfF53LYYX5ew-EeYCdjJ2bWQRB7qHmfkhLdU.cache
+-rw-r--r--  1 Kamran  staff   2.3K Apr 30 20:46 i6mOPaj3KpUtdg5ZEA-WtbiKwMfYugM1zTTP6RgtvDA.cache
+
+./tmp/cache/assets/sprockets/v3.0/iB:
+total 24
+-rw-r--r--  1 Kamran  staff    11K Apr 30 20:46 iBGnJOAMSPPStXCUdroc4FMXWq7MtKiAujTp25VTM6E.cache
+
+./tmp/cache/assets/sprockets/v3.0/iF:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 iFl1JU0sBr63g7wGXHE7QDpDle4J3tCOv66tP7QFrjU.cache
+
+./tmp/cache/assets/sprockets/v3.0/iG:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 iGbxJUyB75d_nXK14ZwR-T6A0nvxb8SUIU7vb3h6xs4.cache
+
+./tmp/cache/assets/sprockets/v3.0/iH:
+total 8
+-rw-r--r--  1 Kamran  staff   687B Apr 30 20:46 iH2XX2S1WZcp_aP94LF98-n6HlIJIfUQU9n8mw8eHxU.cache
+
+./tmp/cache/assets/sprockets/v3.0/iR:
+total 8
+-rw-r--r--  1 Kamran  staff   1.9K Apr 30 20:46 iRBcLe6rrqIluQn06_ZhKAPH4AXipVkxNUrAnHLi43Q.cache
+
+./tmp/cache/assets/sprockets/v3.0/iW:
+total 8
+-rw-r--r--  1 Kamran  staff   435B Apr 30 20:46 iWhsQEZzmqo559tEypkxRJaOcaOjU1fDPyvheH1wtHk.cache
+
+./tmp/cache/assets/sprockets/v3.0/iX:
+total 8
+-rw-r--r--  1 Kamran  staff   1.2K Apr 28 20:35 iXiDWS30GD4aEtLVKlg_JdaI2o0ewzn_s72XlhlFx_I.cache
+
+./tmp/cache/assets/sprockets/v3.0/j6:
+total 8
+-rw-r--r--  1 Kamran  staff   219B Apr 30 18:40 j6EY1rxgnR2eD46ogl-NHN23r_RElDEPDRhVUuxJVSs.cache
+
+./tmp/cache/assets/sprockets/v3.0/jB:
+total 16
+-rw-r--r--  1 Kamran  staff   1.7K Apr 30 20:46 JBXwXpdOTDkxF7Rs3oUfckqRyDGCGWISupIxITDVx28.cache
+-rw-r--r--  1 Kamran  staff   306B Apr 30 20:23 jBp1gX5m4teeacu3l-nlzkgyQVQGeMfgLRQFNDqIjN8.cache
+
+./tmp/cache/assets/sprockets/v3.0/jE:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 jEJQHD7Rdwfku3sL9C6xrsleNHsRiYVC3YlgCRf6l7U.cache
+
+./tmp/cache/assets/sprockets/v3.0/jI:
+total 24
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 JI0AYFl86r7f4xWJSlrRrM7J2k7bEkt-WwDQqqKn5WI.cache
+-rw-r--r--  1 Kamran  staff   197B Apr 28 20:35 jI-HxKrN7Td2azTyyErK2jt9nxlPnCsrrKsGjku30wQ.cache
+-rw-r--r--  1 Kamran  staff   316B Apr 30 20:46 jiVpe56nebcOjXYCMgfD7QEjD5rjmxKlOOiGiuw5JBs.cache
+
+./tmp/cache/assets/sprockets/v3.0/jU:
+total 24
+-rw-r--r--  1 Kamran  staff   321B Apr 30 20:46 JUTABrBs1Wh-rI0rRpLHFa_JGaOSw_MTk4M2iShpOLs.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 jUG6bdASVh3dTe76H7GVB4AMVW4Dq9Zw2ewzQJqL1ZY.cache
+-rw-r--r--  1 Kamran  staff   311B Apr 30 20:46 juVHomJi8UiCgP3PgtIQ--a42KirrrmC5nRvLvK_h84.cache
+
+./tmp/cache/assets/sprockets/v3.0/jd:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 jdYPMBOy6NV4R4VgR7-1QaE9jQHR6VgV7DDWOfnTSS8.cache
+
+./tmp/cache/assets/sprockets/v3.0/jw:
+total 24
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 JW2oPdz3Py-tpEhFi7QEoRPz8mYC--HCBM5Qx2AS8ys.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 JWfS84U0NIWcJUTQqlfSPJ4T_9onl2BMqX9QxCihGIw.cache
+-rw-r--r--  1 Kamran  staff   307B Apr 28 20:35 jwTUN5CCFS40mpZ1XSYD7XOt2mYKYE4tJYnHXkhQpcc.cache
+
+./tmp/cache/assets/sprockets/v3.0/jy:
+total 16
+-rw-r--r--  1 Kamran  staff   2.0K Apr 30 18:40 jyWz4Lqy9sZrrQ8wwmG-XuLz69ZayQjmjMWr1GRHvCM.cache
+-rw-r--r--  1 Kamran  staff   226B Apr 30 20:46 jyreryBBiYpa44H89xd4Uaqwvur4keymEXj4WUiYIDU.cache
+
+./tmp/cache/assets/sprockets/v3.0/k-:
+total 8
+-rw-r--r--  1 Kamran  staff   302B Apr 30 20:46 k-Z8OrOXqM5FbD6oN83giw9UwwKZEPEn0GpTJ72-dsk.cache
+
+./tmp/cache/assets/sprockets/v3.0/k2:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 28 22:19 k2pmhw-7YbevscvgtJ6UZHc1DQScQL2KkFybCzMVfHk.cache
+
+./tmp/cache/assets/sprockets/v3.0/k9:
+total 8
+-rw-r--r--  1 Kamran  staff   3.4K Apr 30 20:46 k9r1ssJG4GWjyuZXU4NJffs-DApGFRg-w_DQiohRiBs.cache
+
+./tmp/cache/assets/sprockets/v3.0/kQ:
+total 8
+-rw-r--r--  1 Kamran  staff   1.9K Apr 30 20:46 kQsE9l8JdxDjCgygreUx6nqFKpDNXV9z-wnjAEB-KLw.cache
+
+./tmp/cache/assets/sprockets/v3.0/kS:
+total 8
+-rw-r--r--  1 Kamran  staff   2.8K Apr 28 18:37 kSkCWaAJCcTgZ_AhrRCjZhNtkE12cubiq70uNtditqk.cache
+
+./tmp/cache/assets/sprockets/v3.0/kT:
+total 8
+-rw-r--r--  1 Kamran  staff   2.2K Apr 30 20:46 kTHj89vEgOcoXC5qNOlBNdf1ugEpBrnQ34m39e4YRq8.cache
+
+./tmp/cache/assets/sprockets/v3.0/kU:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 kUf1oomKW2YdMyBDfLe6vkX5HjKnxeEQ-9FLJQRIxhU.cache
+
+./tmp/cache/assets/sprockets/v3.0/kX:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 kXVXfq2A6f0Aad5rgFjxzvxhKVf85SaqZLmJP9WFMQA.cache
+
+./tmp/cache/assets/sprockets/v3.0/kw:
+total 16
+-rw-r--r--  1 Kamran  staff   318B Apr 30 20:46 KW48SPxiSbimB2dxKf7756NSJsNemm8mEuw7nprd3bo.cache
+-rw-r--r--  1 Kamran  staff   209B Apr 30 20:46 kwNat6jYKxwNd2uiQs0uHv2zRchaAYu29QwB6eGtdso.cache
+
+./tmp/cache/assets/sprockets/v3.0/ky:
+total 16
+-rw-r--r--  1 Kamran  staff   2.0K Apr 30 20:46 kyPHKhcQEMBV0OwjCiRKNtd-XrV3RIEudtXAuY9cFZg.cache
+-rw-r--r--  1 Kamran  staff   222B Apr 30 18:40 kyaNu0H6iYqEuvPCPzbhdA1d0tyEGBQindw9cVqQwiY.cache
+
+./tmp/cache/assets/sprockets/v3.0/l-:
+total 8
+-rw-r--r--  1 Kamran  staff   322B Apr 28 20:35 l-ZYuBcVdWa3_eq8xYyS_TqFKfOmOQyBiA91gEP7cR0.cache
+
+./tmp/cache/assets/sprockets/v3.0/l3:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 l3MmgbDZWEaty6fnQygkZHYpj0VMsklDHbePp4DGRDI.cache
+
+./tmp/cache/assets/sprockets/v3.0/l4:
+total 24
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 L4sX5Ejtljnza0ekj4J02YhOmtz4UVRatAGkcKytbZ8.cache
+-rw-r--r--  1 Kamran  staff   6.9K Apr 28 20:35 l4J6zNbC1AEWOOKqy2QAlesqN3lBJrEQevh-zXt6H70.cache
+
+./tmp/cache/assets/sprockets/v3.0/lM:
+total 8
+-rw-r--r--  1 Kamran  staff   308B Apr 30 20:23 lMB0SSq8impyEosIIo_08YJfRcmaTuhjcqZyNW1fv4Y.cache
+
+./tmp/cache/assets/sprockets/v3.0/lT:
+total 64
+-rw-r--r--  1 Kamran  staff    32K Apr 30 20:46 lTaHYyJxa7MfiKBSxKFt2U8LV-icC_-EKYFEce1ITrs.cache
+
+./tmp/cache/assets/sprockets/v3.0/lb:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 lb01K4qcCMQhgA49fPSXPAt9f1PhlFW6N0E9gRvEWPs.cache
+
+./tmp/cache/assets/sprockets/v3.0/lc:
+total 8
+-rw-r--r--  1 Kamran  staff   2.8K Apr 28 20:35 lchYpcmcyQRRsbsd49m_X5_eLws5_EobfoFVKnVX8vI.cache
+
+./tmp/cache/assets/sprockets/v3.0/lv:
+total 8
+-rw-r--r--  1 Kamran  staff   219B Apr 30 18:40 lvJYWQssa1GbhfyYYJoK0fYJtYhNPRFfqzA9qHLbsAc.cache
+
+./tmp/cache/assets/sprockets/v3.0/ly:
+total 8
+-rw-r--r--  1 Kamran  staff   3.0K Apr 30 18:40 lynJb3YhoGlqkplwoAlHeIeJkFWfO8Cx3UNfmb5gSOY.cache
+
+./tmp/cache/assets/sprockets/v3.0/m4:
+total 8
+-rw-r--r--  1 Kamran  staff   2.6K Apr 28 20:35 m4v6FqbaWHSG-Ho4g5fQ5smk_5Vdm22_hBeWVUJtxFo.cache
+
+./tmp/cache/assets/sprockets/v3.0/m8:
+total 8
+-rw-r--r--  1 Kamran  staff   499B Apr 30 20:46 m8RV6Jib53pxfhAQaiTgUFJpfYn-raiX_ujaG-cnyP0.cache
+
+./tmp/cache/assets/sprockets/v3.0/mX:
+total 8
+-rw-r--r--  1 Kamran  staff   3.1K Apr 28 20:35 mXZyB5ojJih5C9bzWjbUHf-rQwrRYn3HdmMm96SEqyw.cache
+
+./tmp/cache/assets/sprockets/v3.0/mZ:
+total 184
+-rw-r--r--  1 Kamran  staff    86K Apr 30 20:46 MzQaQNVydRxZxwFVt7nrQl-svaX5Bzhf7N-HqmWV-XQ.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 mZ8nC-ug44FgQCG8GJiFo84NyYkaOsmkLFquJ6umXDQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/m_:
+total 24
+-rw-r--r--  1 Kamran  staff   3.0K Apr 30 20:46 m_IoNK7D1or3erEap95UT3DF9XDLM0XPRjME-BIf_l0.cache
+-rw-r--r--  1 Kamran  staff   7.1K Apr 28 20:35 m_ZPZxZd0SHifezggWnVzd-V0epaOv3RThH0CF5p1PI.cache
+
+./tmp/cache/assets/sprockets/v3.0/mk:
+total 24
+-rw-r--r--  1 Kamran  staff   4.0K Apr 28 20:35 MkTlQXs47lDR4xhxZQNm3E9mQv87QWtF1o-5Q-TTWEA.cache
+-rw-r--r--  1 Kamran  staff   5.8K Apr 28 20:35 mk16NqZQhTtHFBiP2OvD7Bx3oFiBkRoqjZ65jObSfa4.cache
+
+./tmp/cache/assets/sprockets/v3.0/mu:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 MuswQkD6LKeJLisaSAWqayWeZWmx-85C03I98i3PXZ0.cache
+-rw-r--r--  1 Kamran  staff   1.8K Apr 28 20:35 mulDWzpHeyUw7h5wOiVQPH_euC3gKfa46TJlrzApKe0.cache
+
+./tmp/cache/assets/sprockets/v3.0/my:
+total 32
+-rw-r--r--  1 Kamran  staff   4.8K Apr 30 20:46 MYqJAD12O4IlZbs_49Ul9Ovoi_zj4UuzdojhiXjMlJ0.cache
+-rw-r--r--  1 Kamran  staff   231B Apr 30 20:46 mYSvMes_Jjiw8zvz0D62J4AYsthJvs1nY4fKw6u7eok.cache
+-rw-r--r--  1 Kamran  staff   947B Apr 30 18:40 mycJkXsC-mLh5sK7788pKY9vuFfBpy9rD62dlHeUtc4.cache
+
+./tmp/cache/assets/sprockets/v3.0/n0:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 n0R9rvXno8ugDcIu601_l39ybo3PTEJHiMhsP3IbAyw.cache
+
+./tmp/cache/assets/sprockets/v3.0/n7:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 n7r-Yn6U5RHag-QUshz_2sIpKtIjZatm-6W4npcKPOM.cache
+
+./tmp/cache/assets/sprockets/v3.0/nM:
+total 24
+-rw-r--r--  1 Kamran  staff    10K Apr 28 20:35 nMZJ8TSez_DbPofcha2qJ18PbbjI0YhRxq1SsnjLcf8.cache
+
+./tmp/cache/assets/sprockets/v3.0/nO:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 nO-i-tcELtf4SuL7YpM2vT9bmiA299tHBCqj6L_anTY.cache
+
+./tmp/cache/assets/sprockets/v3.0/nW:
+total 8
+-rw-r--r--  1 Kamran  staff   1.3K Apr 30 20:46 nWHY7TV4ftZjfjembMTuAXNFV-zVaKLC_IbRWdS-2aY.cache
+
+./tmp/cache/assets/sprockets/v3.0/o0:
+total 8
+-rw-r--r--  1 Kamran  staff   2.0K Apr 30 18:40 o04WqOxTL_prknjaZ3e_nGqhEgVqlYIyUEP08UniYIA.cache
+
+./tmp/cache/assets/sprockets/v3.0/o8:
+total 8
+-rw-r--r--  1 Kamran  staff   1.7K Apr 30 20:46 o8mOxx2272mBnqN-Q1Bpl0stWcTfo-xe36ETuCFOkWw.cache
+
+./tmp/cache/assets/sprockets/v3.0/o9:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 o9Aar6vbOQ1x8z_i9zM6k0bYvsQ_XJvjGBw0VhkGvUE.cache
+
+./tmp/cache/assets/sprockets/v3.0/oS:
+total 16
+-rw-r--r--  1 Kamran  staff   4.5K Apr 28 20:35 oSro1ZzhFV3Wt2ULDCq9er0FQfBmQXYcPm143AAWhaM.cache
+
+./tmp/cache/assets/sprockets/v3.0/oY:
+total 8
+-rw-r--r--  1 Kamran  staff   4.0K Apr 30 20:46 oYqGIAebnBS8on2UIalRwGLj87swW_8dtBs1HrESo0M.cache
+
+./tmp/cache/assets/sprockets/v3.0/oc:
+total 8
+-rw-r--r--  1 Kamran  staff   308B Apr 28 20:35 occKSliNkKGXHeN64tW2Z9qOz2zn9lon-U3CAWfvaFk.cache
+
+./tmp/cache/assets/sprockets/v3.0/ok:
+total 208
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 OKYdNhZAxOrKS29O6wNkWsdq0jjDBcLPTueBguiGp0A.cache
+-rw-r--r--  1 Kamran  staff   100K Apr 28 18:37 okCQ-xYD00RvPyP-QsU6qP-NTCaq6Zsj-R7Jl3CggjI.cache
+
+./tmp/cache/assets/sprockets/v3.0/p6:
+total 8
+-rw-r--r--  1 Kamran  staff   2.0K Apr 28 20:35 p6FOf5YyKCvM1pB29rgWR1B9DSsoNtQCyYv-UrGMcis.cache
+
+./tmp/cache/assets/sprockets/v3.0/pG:
+total 8
+-rw-r--r--  1 Kamran  staff   232B Apr 30 20:46 pGfX67MGaKX7QZOGGSquURbNWjMr5l_GyaJ53KW1Xi8.cache
+
+./tmp/cache/assets/sprockets/v3.0/pu:
+total 24
+-rw-r--r--  1 Kamran  staff    10K Apr 30 20:46 puaGPv-5F6rb4G1fehQJ07XZFpgHBe9kJMigrX3WJ5c.cache
+
+./tmp/cache/assets/sprockets/v3.0/qA:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 qAwYY5hU_32piKqNOC2gpVJaLX92lsK1efQR0tLHw-c.cache
+
+./tmp/cache/assets/sprockets/v3.0/qK:
+total 32
+-rw-r--r--  1 Kamran  staff   234B Apr 30 20:46 Qk9ObazIqGo-G15DT-rVpLRKWvs59L5uX78pC3RF7pY.cache
+-rw-r--r--  1 Kamran  staff   8.6K Apr 28 20:35 qKkb9FL7KuuGDVjlcXlrIX7sjYfmQKXcf-lFeo8qetQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/qT:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 qTbxp_kMTytLhNf1qVnIbfx53KLmmAbZDdhkvESdNpY.cache
+
+./tmp/cache/assets/sprockets/v3.0/qo:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 qop2WnNO27wN35CJcDK1gcNbstzkTAyS6O4C5ZoL4vM.cache
+
+./tmp/cache/assets/sprockets/v3.0/r8:
+total 8
+-rw-r--r--  1 Kamran  staff   223B Apr 28 20:35 r8hX77gYdeegmamYAYWLLVjCm_q-DrdeUauMvVmHvS4.cache
+
+./tmp/cache/assets/sprockets/v3.0/r9:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 r9acqipPexAiPrPZsbqrT8gviTUCgeWBodOek0SYytM.cache
+
+./tmp/cache/assets/sprockets/v3.0/rX:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 rXYoO2Z8kToQ-Q1-v1iLQHpyvN0IoIsPN3yEYGA8_E4.cache
+
+./tmp/cache/assets/sprockets/v3.0/r_:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 r_ZWw2DfcCC27w-eLGL1-vfA1Hgp1Dajn8MdFdKBljg.cache
+
+./tmp/cache/assets/sprockets/v3.0/rd:
+total 8
+-rw-r--r--  1 Kamran  staff   1.3K Apr 30 20:23 rdSyIAYFUVvsaI2cqPtm41XRb8VkdbS0801RKmudJOA.cache
+
+./tmp/cache/assets/sprockets/v3.0/rj:
+total 8
+-rw-r--r--  1 Kamran  staff   150B Apr 30 20:46 rjq9q3jUvUGpWCqqUtnZuP7ev-6wBDD2Pels3584hmM.cache
+
+./tmp/cache/assets/sprockets/v3.0/rw:
+total 8
+-rw-r--r--  1 Kamran  staff   303B Apr 30 20:23 rw5uDWSzPmuXjBQ3WIY3kgp-d7Pf2Xa2EA84yRMBmu4.cache
+
+./tmp/cache/assets/sprockets/v3.0/s0:
+total 8
+-rw-r--r--  1 Kamran  staff   3.2K Apr 28 20:35 s0C-pox7X1QQOfbyjQv_FctcizMvHcqiD5VNjO5QDBs.cache
+
+./tmp/cache/assets/sprockets/v3.0/sB:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 sBr_e_qLW2_9NTRRlrBM4RznMvOhqdRoogmbGoYgw_g.cache
+-rw-r--r--  1 Kamran  staff   1.7K Apr 30 18:40 sbb6J2X_VveS6SeK7KFoldHJw1b8NeSvz7f6gOm0dVk.cache
+
+./tmp/cache/assets/sprockets/v3.0/sK:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 sKgeTY0SUxXy_ExHZXN_ApacmD32v2XaIzR8oCX_Reo.cache
+
+./tmp/cache/assets/sprockets/v3.0/sO:
+total 16
+-rw-r--r--  1 Kamran  staff   1.4K Apr 28 20:35 sOt-i3RiPxJQTnWpOiFJ6RUa7pS1lNYZE1ZdEmnMQHk.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 soMkcPVbgvLTIwhRWoPZa24CcsQSRgmqMgIFO8FsJro.cache
+
+./tmp/cache/assets/sprockets/v3.0/sc:
+total 8
+-rw-r--r--  1 Kamran  staff   140B Apr 30 18:40 scPs6BFgHBZw5o4B_X0WOeYT5kZUSzyFlNTP-Lxwozw.cache
+
+./tmp/cache/assets/sprockets/v3.0/st:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 stfhagRafq0KPH6015ZDtT8wDWYTT4iTx2EqfldMN6k.cache
+
+./tmp/cache/assets/sprockets/v3.0/su:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 suh9EG8-KMke1FpJf0SfCo27HHONoIjjdvjXlOVuy58.cache
+
+./tmp/cache/assets/sprockets/v3.0/t1:
+total 8
+-rw-r--r--  1 Kamran  staff   2.7K Apr 30 20:46 t1xwCtSX-HydbnK6dhrXbK_C-I7xATHSRhSN85QPgCo.cache
+
+./tmp/cache/assets/sprockets/v3.0/tE:
+total 8
+-rw-r--r--  1 Kamran  staff   320B Apr 30 20:46 tEbscDspLQlenTUUhWSE5_IRzVupo64F_A1XDGmaebc.cache
+
+./tmp/cache/assets/sprockets/v3.0/t_:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 t_rwNsp0pjTAbb4REwQlgw_QZ5hftg2TORxmV4601OQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/tf:
+total 8
+-rw-r--r--  1 Kamran  staff   2.5K Apr 28 20:35 tffnUnTM2521Da_u916fUOytkaUfXzZa9ieuRx_0xzQ.cache
+
+./tmp/cache/assets/sprockets/v3.0/tk:
+total 8
+-rw-r--r--  1 Kamran  staff   1.8K Apr 30 18:40 tkNiYU7p3IrTweyVJGD1jbd2Z95_HjzNPevNd50LtLA.cache
+
+./tmp/cache/assets/sprockets/v3.0/tv:
+total 8
+-rw-r--r--  1 Kamran  staff   4.0K Apr 30 20:46 tv6IAIxlotO36VREK7Ia_PNTdUwj9Dd2E-GpQo48qxk.cache
+
+./tmp/cache/assets/sprockets/v3.0/tw:
+total 8
+-rw-r--r--  1 Kamran  staff   1.7K Apr 28 20:35 twxEFgWwAmvVAKvwIXTOPHUCw-2KD8GuZ1pZKKHcHjM.cache
+
+./tmp/cache/assets/sprockets/v3.0/ty:
+total 8
+-rw-r--r--  1 Kamran  staff   3.5K Apr 30 20:46 tyGfxRsIwVY9rRDKrQeEY1Jm8I8z4L3DFhac-ninLBE.cache
+
+./tmp/cache/assets/sprockets/v3.0/u1:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 u1LzUkoTMD5ouWS8AFg8PJDNsJLpFdXk9DSQPlkM9aA.cache
+
+./tmp/cache/assets/sprockets/v3.0/u2:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 u22rQfKFxz0PrbxOoiU8r64Rgt-6IaEAIQGipFWvUQM.cache
+
+./tmp/cache/assets/sprockets/v3.0/u3:
+total 8
+-rw-r--r--  1 Kamran  staff   3.2K Apr 30 20:23 u3MKPhkPdIQDscyvKadJ9aEgHWAf6MKTWunl8fq0uKI.cache
+
+./tmp/cache/assets/sprockets/v3.0/uC:
+total 8
+-rw-r--r--  1 Kamran  staff   947B Apr 30 18:40 uCcsA5ld33sDR0Q8Pbp9LEzP371riWifusW30LTrmyw.cache
+
+./tmp/cache/assets/sprockets/v3.0/uF:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 uFYIn651kFs9PgtxG6YfpI5SGTp0VehDuMz8xSejRUU.cache
+
+./tmp/cache/assets/sprockets/v3.0/uS:
+total 8
+-rw-r--r--  1 Kamran  staff   222B Apr 30 18:40 uSHpDF_0JXiYnmefQNAOzyopKKd82W5J6mvaISoZNF0.cache
+
+./tmp/cache/assets/sprockets/v3.0/uZ:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 uZJt0LYN8MSEYJuDFiPDJXoJ-_7SXtz46y9PXgVb9Po.cache
+
+./tmp/cache/assets/sprockets/v3.0/vB:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 vBo5fAMHm_Nqb1BQc_36Jec2GKQfSiNRgANkNKRfBE4.cache
+
+./tmp/cache/assets/sprockets/v3.0/vD:
+total 8
+-rw-r--r--  1 Kamran  staff   3.7K Apr 30 20:46 vDrWzY7ytpBofcfHUAKOYckc6TVvx2P_Qu3OVFkr9Zc.cache
+
+./tmp/cache/assets/sprockets/v3.0/vW:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 vWACtmRAvqKNdR5oEctYIy_tWJ_6EMQjn58H9L77XXs.cache
+
+./tmp/cache/assets/sprockets/v3.0/vc:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 vctrlk9gqno38GntneQm03W9gFr2wO2Ff933B0cj0kk.cache
+
+./tmp/cache/assets/sprockets/v3.0/vf:
+total 8
+-rw-r--r--  1 Kamran  staff   136B Apr 30 18:40 vfqS7adQZFZi2LxmMvoHOoY0b1rNMRzouYPwr8l2vKw.cache
+
+./tmp/cache/assets/sprockets/v3.0/vn:
+total 8
+-rw-r--r--  1 Kamran  staff   868B Apr 30 20:46 vna3u4V4ID-enx2gjU5lhStVUA8a4ujQkCoPl6ksegc.cache
+
+./tmp/cache/assets/sprockets/v3.0/wB:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 wBHlmUpQNs6waGSpQmpFm1Hik6V40E0FARCO1YYnu6Q.cache
+
+./tmp/cache/assets/sprockets/v3.0/wC:
+total 8
+-rw-r--r--  1 Kamran  staff   441B Apr 30 20:46 wCzECoYyJs9LIqdVxouLknpPKiZOAefAPJzdE65OxGs.cache
+
+./tmp/cache/assets/sprockets/v3.0/wH:
+total 16
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 WhNglctRbGPaIypdrPNwBSnNKbsOO5h8Db7D3g_NQYY.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 wHa185DaTxDNcqnJmpIJEBEXJOVRiPL85ouQEFWpLhg.cache
+
+./tmp/cache/assets/sprockets/v3.0/wX:
+total 24
+-rw-r--r--  1 Kamran  staff   5.3K Apr 28 20:35 wX5F4-EynOdsnLOKrPHE6JwtilbTF2jteZ7_ynqmj5A.cache
+-rw-r--r--  1 Kamran  staff   1.0K Apr 30 18:40 wX_n5Cck6zV6HYC3mGb6oAUFB7fHPklgLYC-y5zOwYA.cache
+
+./tmp/cache/assets/sprockets/v3.0/wa:
+total 8
+-rw-r--r--  1 Kamran  staff   3.9K Apr 28 20:35 waWwgO-swfkBY75F6w_nZ5hKh4Yk55u7udjvpUQWK9s.cache
+
+./tmp/cache/assets/sprockets/v3.0/we:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 weOG1scluhI8zX1dZlhUZX9PApXqvl_LLGGqoJCSM7k.cache
+
+./tmp/cache/assets/sprockets/v3.0/wi:
+total 24
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 WIPE96gjgvTqFsfjn9EqeBvtqoHDeC7ridxD0LSfONk.cache
+-rw-r--r--  1 Kamran  staff   1.7K Apr 30 20:46 Witqv10X1M1A-F9bK7zYijZXVLnpN4TQiiYZhL3N8Rc.cache
+-rw-r--r--  1 Kamran  staff   2.4K Apr 28 18:37 wiiIe6giUUuTlLoUjAS05c34sBOlRzuJUWPMnbOkwG8.cache
+
+./tmp/cache/assets/sprockets/v3.0/wt:
+total 16
+-rw-r--r--  1 Kamran  staff   5.0K Apr 30 20:46 wthEknvCupfmKlPZkM13WJP6MILoKOJa4eMYtLmH7-g.cache
+
+./tmp/cache/assets/sprockets/v3.0/wz:
+total 208
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 wZlG3_-UrLVa1eP5ykD6gNh9aV9KkBe_-Y0J0XWR2fc.cache
+-rw-r--r--  1 Kamran  staff   100K Apr 28 18:37 wzt6dEHGRWimlFEPbU6k9mloNT5V1Z-c-JaufZAXecw.cache
+
+./tmp/cache/assets/sprockets/v3.0/xH:
+total 8
+-rw-r--r--  1 Kamran  staff   2.4K Apr 28 20:35 xHLFbhUrenK3MpJDllffsu6aXZMxw_EAPuuYJGxTVO4.cache
+
+./tmp/cache/assets/sprockets/v3.0/xZ:
+total 8
+-rw-r--r--  1 Kamran  staff   3.5K Apr 28 20:35 xZJYiMPWzCPVxm9K-o8ThAMshRueY9Ucj8UUVrRNUfk.cache
+
+./tmp/cache/assets/sprockets/v3.0/xc:
+total 24
+-rw-r--r--  1 Kamran  staff   9.4K Apr 30 20:46 xceBQDJdNLAV7zbpQt9FJCKuTUyMKiJ1CiuYKEsUAqc.cache
+
+./tmp/cache/assets/sprockets/v3.0/xv:
+total 8
+-rw-r--r--  1 Kamran  staff   3.6K Apr 28 20:35 xvV8jc6kkDG1KqzPqStb4bpZ60ags-Vqq0mKjIQVMqU.cache
+
+./tmp/cache/assets/sprockets/v3.0/y0:
+total 16
+-rw-r--r--  1 Kamran  staff   5.0K Apr 28 20:35 y0OZghpn8SDbFbdq4jYTXWbjh6TC9gYsTFGHtvtzDtM.cache
+
+./tmp/cache/assets/sprockets/v3.0/y4:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 y47BoQ5bj0Xrg4IeBmDAuJ4OPBFJwxppnZ_0e2gNTBc.cache
+
+./tmp/cache/assets/sprockets/v3.0/y6:
+total 72
+-rw-r--r--  1 Kamran  staff    30K Apr 30 18:40 y6EDepcuBlcQZPJH4WWAeRj516Apr8A7PvQKuQofdBg.cache
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 y6srEXXoYFd4j3LJXRzzmydxIe6D4ldQsmak4iGSuVw.cache
+
+./tmp/cache/assets/sprockets/v3.0/yG:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 yGsTO--qjNfwcq39TEB2OEv2oWf01hYYlzd1sKpy-bo.cache
+
+./tmp/cache/assets/sprockets/v3.0/yL:
+total 8
+-rw-r--r--  1 Kamran  staff   499B Apr 30 20:46 yLpW_7_mv--d0YbIr5xg2toqjT15wQBe0qKxuJz9mw0.cache
+
+./tmp/cache/assets/sprockets/v3.0/yV:
+total 8
+-rw-r--r--  1 Kamran  staff   2.1K Apr 30 20:46 yVYcHQlXKTFA_xLU5N7MRr4Jeio-r8hHae9_PLScI-M.cache
+
+./tmp/cache/assets/sprockets/v3.0/yX:
+total 256
+-rw-r--r--  1 Kamran  staff   114K Apr 30 20:46 YXe-z9yE7oRhbcZPb6WYRzyQCnGMcMpl_3FJTsd-MEc.cache
+-rw-r--r--  1 Kamran  staff   9.3K Apr 28 20:35 yXLoTehorl-P8CrnHU2UQoxr0a-X3snpp5F92Ex85OM.cache
+
+./tmp/cache/assets/sprockets/v3.0/yp:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 ypO65zLqa-9EH_C8nhfh-1hzZWD9DvS2nbX_nQzvMQw.cache
+
+./tmp/cache/assets/sprockets/v3.0/yr:
+total 8
+-rw-r--r--  1 Kamran  staff   2.5K Apr 30 20:46 yrb5WnmU8p8F08X4lipclO4L6J1Is8SgdP1YsXvo3Uk.cache
+
+./tmp/cache/assets/sprockets/v3.0/ys:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 ys9eyWR9UdjwmcgseRxiVFw6qyYSgEBB-uwojeZgG_Y.cache
+
+./tmp/cache/assets/sprockets/v3.0/yu:
+total 16
+-rw-r--r--  1 Kamran  staff   5.0K Apr 28 20:35 yuqS2EVEhsYDnvSiQ5reIY1cK-6eGLvaK2yIiwK5jVs.cache
+
+./tmp/cache/assets/sprockets/v3.0/z8:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 z8rdHqEA_rYSwB31zCNBLqsldZuzu3cPOke_UOdal2g.cache
+
+./tmp/cache/assets/sprockets/v3.0/zE:
+total 8
+-rw-r--r--  1 Kamran  staff   2.3K Apr 30 20:46 zEfZHz2x-9lxZYkgOfwP8ABk1Fp8Su5Qf9fscXwKWw4.cache
+
+./tmp/cache/assets/sprockets/v3.0/zW:
+total 8
+-rw-r--r--  1 Kamran  staff    36B Apr 30 20:46 zW4VwqD2OWZ7pufCH6i0TnvDqXQweUNnW8Nr_cpY7R0.cache
+
+./tmp/cache/assets/sprockets/v3.0/zt:
+total 72
+-rw-r--r--  1 Kamran  staff   5.6K Apr 28 20:35 zT5xeJVnVh0p5fn1KU5uIQ6WVQT3dTVtiP61ow5H5yc.cache
+-rw-r--r--  1 Kamran  staff    28K Apr 28 20:35 ztAoeFhQqWmipdCGyqfDQkUZFQF1ve5QpnlKdysbmsY.cache
+
+./tmp/pids:
+total 8
+-rw-r--r--  1 Kamran  staff     5B Apr 30 18:40 server.pid
+
+./tmp/sessions:
+
+./tmp/sockets:
+
+./vendor:
+total 0
+drwxr-xr-x  4 Kamran  staff   136B Apr 26 14:52 assets/
+
+./vendor/assets:
+total 0
+drwxr-xr-x  3 Kamran  staff   102B Apr 26 14:52 javascripts/
+drwxr-xr-x  3 Kamran  staff   102B Apr 26 14:52 stylesheets/
+
+./vendor/assets/javascripts:
+
+./vendor/assets/stylesheets:

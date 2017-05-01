@@ -1,10 +1,13 @@
-<p class="text-center"><%= link_to "<button>Add New Expense</button>".html_safe, new_user_expense_path(current_user)%></p>
-<h2 class="text-center">Your Expenses</strong></h2>
-
+<%if @allowed%>
+  <p class="text-center"><%= link_to "<button>Add New Expense</button>".html_safe, new_user_expense_path(current_user)%></p>
+  <h2 class="text-center">Your Expenses</strong></h2>
+<% else %>
+  <h2 class="text-center"> <%= "#{@user.email} Expenses"%></h2>
+<% end %>
 <% if !@expenses.blank?%>
   <% @expenses.each do |e| %>
     <div class="row">
-      <div class="col-xs-8 col-xs-offset-2">
+      <div class="col-xs-8 col-xs-offset-2" >
         <div class="well well-lg">
   
           <div class="expense-name">
@@ -21,7 +24,7 @@
 
           <p></p>
           <% if @allowed %>
-            <div class="case-actions">
+            <div class="expense-actions">
               <%= link_to "Details", user_expense_path(@user, e), class: "btn btn-sm btn-primary"%>
               <%= link_to "Edit", edit_user_expense_path(@user, e), class: "btn btn-sm btn-primary"%>
               <%= link_to "Delete", user_expense_path(current_user, e), method: :delete, class: "btn btn-sm btn-danger", data: {confirm: "Are your sure you want to delete this expense?"}%>

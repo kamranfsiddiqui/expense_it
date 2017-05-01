@@ -1,5 +1,6 @@
 class Expense < ActiveRecord::Base
   belongs_to :user
+  validates :name, presence: true
   validates :description, presence: true
 
   def self.sum_time_interval_expenses(user_id, time1, time2)
