@@ -21,7 +21,7 @@ class ExpensesController < ApplicationController
     @allowed = @user.id == current_user.id
     if !@allowed
       flash[:warning] = "You are not allowed to create expenses for this user!"
-      redirect_to user_path(@user)
+      redirect_to user_expenses_path(current_user)
     else
       @expense = Expense.new
     end
@@ -33,14 +33,14 @@ class ExpensesController < ApplicationController
     @allowed = @user.id == current_user.id
     if not @allowed  
       flash[:warning] = "You are not allowed to add expenses for this user!"
-      redirect_to user_path(@user)
+      redirect_to user_expenses_path(current_user)
     end
     if @expense.save
       flash[:success] = "New expense added successfully"
-      redirect_to user_expenses_path(@user)
+      redirect_to user_expenses_path(current_user)
     else
       flash[:error] = "Sorry, there was an error in adding the expense. Please try again."
-      redirect_to user_path(@user)
+      redirect_to user_path(current_user)
     end
   end
 
@@ -49,7 +49,7 @@ class ExpensesController < ApplicationController
     @allowed = @user.id == current_user.id
     if !@allowed
       flash[:warning] = "You are not allowed to edit expenses for this user!"
-      redirect_to user_path(@user)
+      redirect_to user_expenses_path(current_user)
     else
       @expense = Expense.find(params[:id])
     end
@@ -62,7 +62,7 @@ class ExpensesController < ApplicationController
     @allowed = @user.id == current_user.id
     if not @allowed  
       flash[:warning] = "You are not allowed to edit expenses for this user!"
-      redirect_to user_path(@user)
+      redirect_to user_expenses_path(current_user)
     end
 
     if @expense.update(expense_params)
@@ -80,7 +80,7 @@ class ExpensesController < ApplicationController
     @expense = Expense.find(params[:id])
     if !@allowed and !current_user.admin?
       flash[:warning] = "You cannot see this users expenses!"
-      redirect_to user_path(@user)
+      redirect_to user_expense_path(current_user, @expense)
     else
       @expense = Expense.find(params[:id])
     end

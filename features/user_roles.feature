@@ -21,12 +21,8 @@ Scenario: Admins can see link to all users(and their secrets)
 Scenario: Admin cannot CUD another users expenses
   When "msnow@cia.com" signs in with "marksnow"
   And I should see "All Users"
-  When I go to the expenses page for "albert@gmail.com"
-  Then I should see "albert@gmail.com"
-  Then I should not see "Add New Expense"
-  Then I should not see "Edit"
-  Then I should not see "Details"
-  Then I should not see "Delete"
+  When I go to the new expense page for "albert@gmail.com"
+  Then I should see "You are not allowed to create expenses for this user!"
   And I follow "Logout"
 
 Scenario: Regular users cannot CRUD another users expenses

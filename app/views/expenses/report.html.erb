@@ -10,7 +10,7 @@
     <% @weekly_sums.each do |year_week, sum|%>
       <%arr = year_week.split("-")%>
       <%arr = arr.map{|e| e.to_i}%>
-      <h3><%= "Week: #{Date.commercial(arr[0],arr[1],1)} to #{Date.commercial(arr[0],arr[1],7)}"%></h3>
+      <h3><%= "Week: #{Date.commercial(arr[0],arr[1],1).strftime("%b %d, %Y")} to #{Date.commercial(arr[0],arr[1],7).strftime("%b %d, %Y")}"%></h3>
       <%= "Amount spent: $ #{sum}"%>
       <p></p>
     <% end %>  

@@ -7,22 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <table cellpadding=10 cellspacing="10">
-    <tr>
-      <td><h1 class="text-left"id="home"> <em><%=link_to "ExpenseIt", root_path%> </em></h1></td>
-      <% if user_signed_in? %>
-        <td><%= link_to 'Logout', destroy_user_session_path, :method => :delete, class: "btn btn-danger"%></td>
-        <td><%= link_to 'My Expenses', user_path(current_user), class: 'btn btn-info'%></td>
-        <td><%= link_to 'Report' , report_user_path(current_user), class: 'btn btn-info'%></td>
-        <% if current_user.admin? %>
-          <td><%= link_to 'All Users', users_path(current_user), class: 'btn btn-info'%></td>
-        <%end%>
-      <% else %>
-        <td><%= link_to 'Login', new_user_session_path, class: 'btn btn-primary'%></td>
-        <td><%= link_to 'Sign-Up', new_user_registration_path, class: 'btn btn-success'%></td>  
-      <% end %>
-    </tr>
-  </table>
+<%= render 'layouts/navigation'%>
 <%= render 'layouts/messages'%>
 <% flash[:success] = flash[:warning] =flash[:error] = nil%>
 
