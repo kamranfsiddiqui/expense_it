@@ -1,2 +1,9 @@
-<h1>Users#edit</h1>
-<p>Find me in app/views/users/edit.html.erb</p>
+<div class='well'>
+	<p> Edit your account settings here. </p>
+</div>
+<p></p>
+<% if @allowed %>
+  <div class="col-sm-offset-1 user-actions">
+    <%= link_to "Delete My Account", user_path(@user), method: :delete, class: "btn btn-danger", data: {confirm: "Are your sure you want to delete your account? All your expenses and data will be permanently deleted."}%>
+  </div>
+<% end %>

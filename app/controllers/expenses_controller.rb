@@ -108,21 +108,23 @@ class ExpensesController < ApplicationController
     if user_signed_in?
       @user = User.find(params[:user_id])
     end
-    panel_types = Array["default", "primary", "success", "info", "warning", "danger"]
-    @panel = panel_types.sample.prepend("panel panel-")
+    types = Array["default", "primary", "success", "info", "warning", "danger"]
+    @type = types.sample
+    @grouping = params[:group].to_sym
+
     if not Expense.exists?
       flash[:error] = "You have not added any expenses yet."
       redirect_to report_user_path(current_user)
     elsif params.has_key?("all_expenses") and params["all_expenses"]== "1"
-      @startDate = Expense.where(user_id: current_user.id).order(id: :asc).first.date
-      @endDate = Expense.where(user_id: current_user.id).order(id: :asc).last.date
-      @weekly_sums = Expense.sum_all_expenses(current_user.id)
+      @all = true
+      @weekly_sums = Expense.sum_all_expenses(current_user.id, @grouping)
     else
+      @all = false
       start = Hash[params[:start_date].map{|k,v| [k.to_sym, v.to_i]}]
       last = Hash[params[:end_date].map{|k,v| [k.to_sym, v.to_i]}]
       @startDate = DateTime.new(start[:year], start[:month], start[:day], start[:hour], start[:minute])
       @endDate = DateTime.new(last[:year], last[:month], last[:day], last[:hour], last[:minute])
-      @weekly_sums = Expense.sum_time_interval_expenses current_user.id, @startDate, @endDate
+      @weekly_sums = Expense.sum_time_interval_expenses current_user.id, @startDate, @endDate, @grouping
     end
   end  
 

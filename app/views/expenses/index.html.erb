@@ -3,24 +3,23 @@
 </div>
 
 <%if @allowed%>
-  <div style="text-align: center;"><h1><span align="center" class="label label-primary"> Your Expenses </span></h1></div>
+  <div style="text-align: center;"><h1><span align="center" class="label label-default"> Your Expenses </span></h1></div>
 <% else %>
-  <h2 class="text-center"> <%= "#{@user.email} Expenses"%></h2>
+  <div style="text-align: center;"><h1><span align="center" class="label label-default"><%= "#{@user.email} Expenses"%></span></h1></div>
 <% end %>
 <% if !@expenses.blank?%>
-  <table class= "table table-striped">
+  <table class= "table table-striped table-hover">
     <thead>
       <tr>
         <th> Name </th>
         <th> Date </th>
         <th> Amount </th>
         <th>  </th>
-
       </tr>
     </thead>
     <tbody>
       <% @expenses.each do |e| %>
-        <tr class="expense-row">
+       <tr class="expense-row">
           <td class="expense-name">
             <b> <%= e.name  %></b>
           </td>

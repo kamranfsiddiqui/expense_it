@@ -7,7 +7,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to "ExpenseIt", root_path, class: "navbar-brand", id:"logo" %>
+        <% if user_signed_in? %>
+          <%= link_to "ExpenseIt", user_path(current_user), class: "navbar-brand", id:"logo" %>
+        <% else %>
+          <%= link_to "ExpenseIt", root_path, class: "navbar-brand", id:"logo" %>
+        <% end %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,7 +21,8 @@
           <li><%= link_to "My Expenses", user_expenses_path(current_user.id) %></li>
           <li><%= link_to "Add New Expense", new_user_expense_path(current_user.id) %></li>
           <li><%= link_to 'Expense Report' , report_user_path(current_user)%></li>
-          <li><%= link_to("Logout", destroy_user_session_path, :method => :delete) %></li>
+          <li class: "right"><%= link_to "Settings", edit_user_path(current_user) %></li>
+          <li class: "right"><%= link_to("Logout", destroy_user_session_path, :method => :delete) %></li>
           <% if current_user.admin? %>
             <li><%= link_to 'All Users', users_path(current_user)%></li>
           <%end%>

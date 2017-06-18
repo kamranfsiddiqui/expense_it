@@ -1,18 +1,35 @@
-<div class="<%= @panel%>">
+<div class="panel panel-<%=@type%>">
+
   <div class="panel-heading">
-    <%if @startDate.class == DateTime%>
-      <h3 class="panel-title"><%= "Report for #{@startDate.strftime("%b %d, %Y")} to #{@endDate.strftime("%b %d, %Y")}"%></h3>
+    <%if @all%>
+      <h3 class="panel-title">Report for All Time</h3>
     <%else%>
-      <h3 class="panel-title"><%= "Report for #{@startDate.to_datetime.strftime("%b %d, %Y")} to #{@endDate.to_datetime.strftime("%b %d, %Y")}"%></h3>
+      <h3 class="panel-title"> <%= "Report for #{@startDate.strftime("%b %d, %Y")} to #{@endDate.strftime("%b %d, %Y")}"%></h3>
     <%end%>
   </div>
+
   <div class="panel-body">
-    <% @weekly_sums.each do |year_week, sum|%>
-      <%arr = year_week.split("-")%>
-      <%arr = arr.map{|e| e.to_i}%>
-      <h3><%= "Week: #{Date.commercial(arr[0],arr[1],1).strftime("%b %d, %Y")} to #{Date.commercial(arr[0],arr[1],7).strftime("%b %d, %Y")}"%></h3>
-      <%= "Amount spent: $ #{sum}"%>
-      <p></p>
-    <% end %>  
+    <table class= "table" id="report-table">
+        <thead>
+          <tr class="bg-<%=@type%>">
+            <th> Time Period </th>
+            <th> Amount Spent Over Period </th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <% @weekly_sums.each do |group_num, sum|%>
+            <tr class="table-<%=@type%>">
+              <td class="report-period">
+                <b> <%= Expense.agg_report_str(group_num, @grouping)  %></b>
+              </td>
+
+              <td class="report-period-amount">
+                <%= "$ #{sum}"%>
+              </td>
+            </tr>
+          <% end %>
+        <tbody>
+      </table>
   </div>
 </div>

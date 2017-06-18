@@ -28,28 +28,30 @@ class UsersController < ApplicationController
   end
 
   def edit
-    if user_signed_in?
-      redirect_to user_path(current_user.id)
-    else
-      redirect_to new_user_session_path
-    end
+    @user = User.find(params[:id])
+    @allowed = @user.id == current_user.id
+	  if !@allowed
+      flash[:warning] = "You cannot edit another user's settings expenses"
+      redirect_to user_path(current_user)
+		end
+    
   end
 
   def update
-    if user_signed_in?
-      redirect_to user_path(current_user.id)
+    @user = User.find(params[:id])
+    @allowed = @user.id == current_user.id
+	  if !@allowed
+      flash[:warning] = "You cannot edit another user's settings expenses"
+      redirect_to user_path(current_user)
     else
-      redirect_to new_user_session_path
-    end
+      redirect_to edit_user_path(@user)
+		end
   end
 
   def show
     @user = User.find(params[:id])
     @allowed = @user.id == current_user.id
-	  if !user_signed_in?
-      flash[:warning] = "You need to sign-in first"
-      redirect_to new_user_session_path
-    elsif !@allowed
+	  if !@allowed
       flash[:warning] = "You cannot access another user's expenses"
       redirect_to user_path(current_user)
     else
@@ -58,19 +60,18 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    if user_signed_in?
-      redirect_to user_path(current_user.id)
+    @user = User.find(params[:id])
+    @allowed = @user.id == current_user.id
+	  if !@allowed
+      flash[:warning] = "You cannot delete another user"
+      redirect_to user_path(current_user)
     else
       redirect_to new_user_session_path
-    end
+		end
   end
 
   def report
-    if user_signed_in?
       @user = User.find(params[:id])
-    else
-      redirect_to new_user_session_path
-    end
   end
 
 end

@@ -1,5 +1,5 @@
 <div class='well'>
-	<p> Generate reports on your weekly spending by filling out the form below with a start and end date for the report or check the box to use all expenses. </p>
+	<p> Generate reports on your hourly, daily, weekly, monthly, or yearly spending by filling out the form below with a start and end date for the report or check the box to use all expenses. </p>
 </div>
 <div class='row'>
   <div class='col-xs-12 form-horizontal'>
@@ -28,6 +28,23 @@
         <%= label_tag :all_expenses, "Use all expenses to generate report"%>
       </div>
     </div>
+
+    <div class="form-group ">
+      <div class="col-sm-offset-2 col-sm-10">
+
+        <%= radio_button_tag(:group, "hour") %>
+        <%= label_tag(:group_hour, "Hourly") %>
+        <%= radio_button_tag(:group, "day") %>
+        <%= label_tag(:group_day, "Daily") %>
+        <%= radio_button_tag(:group, "week", true) %>
+        <%= label_tag(:group_week, "Weekly") %>
+        <%= radio_button_tag(:group, "month") %>
+        <%= label_tag(:group_month, "Monthly") %>
+        <%= radio_button_tag(:group, "year") %>
+        <%= label_tag(:group_year, "Yearly") %>
+      </div>
+    </div>
+
 
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
